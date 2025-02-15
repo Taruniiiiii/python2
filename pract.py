@@ -143,7 +143,7 @@ class Solution(object):
 ##
 class Solution(object):
     def isAnagram(self, s, t):
-        return sorted(s)==sorted(t)
+        return sorted(s)==sorted(t)""""""
         
 ##
 class Solution(object):
@@ -218,7 +218,7 @@ class Solution:
         for i in range(len(nums)):
             if nums[i] != 0:
                 nums[pos], nums[i] = nums[i], nums[pos]
-                pos += 1"""
+                pos += 1
 ##6 feb
 class Solution:
     def canWinNim(self, n: int) -> bool:

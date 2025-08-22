@@ -42,7 +42,7 @@ class Solution:
         elif n==2:
             return 5
         elif n==5:
-            return 2
+            return 
         elif n==1:
             return 6
         elif n==3:
@@ -52,4 +52,18 @@ class Solution:
         else:
             return "invalid input"
         
-        
+#day=2
+#1..You are given a string s, you need to print its characters at
+#  even indices(index starts at 0).
+def stringJumper(s):
+    for i in range(0,len(s),2):
+        # from 0 to lngth of str and skip 2
+        print(s[i], end="")
+        #printing character and separating characters by nothing
+
+#2..
+#print the numbers from x to 0 in decreasing order in a single line.
+#User function Template for python3
+x = int(input())
+for i in range(x,-1,-1):
+    print(i,end=" ")

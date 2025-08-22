@@ -67,3 +67,13 @@ def stringJumper(s):
 x = int(input())
 for i in range(x,-1,-1):
     print(i,end=" ")
+
+#3...
+#print the numbers from 1 to x in the order as 
+# 12, 22, 32, 42, 52, ... (in increasing order).
+def printIncreasingPower(x):
+    i=1# start from 1
+    while(i*i<=x): unitil i matches or less that given number multiply
+        print (i*i , end = " ")
+        i=i+1 # i changes and goes to next num
+        

@@ -22,4 +22,17 @@ elif x>=50:
     print("C grade")
 else:
     print("FAIL")
-    
+
+
+m=int(input())
+n=int(input())
+o=int(input())
+p=int(input())
+if m>n:
+    print("m is greater")
+elif n>o:
+    print("n is greater")
+elif o>p:
+    print("o is greater")
+else:
+    print("p is greater")

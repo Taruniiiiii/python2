@@ -1,4 +1,4 @@
-#Write a program to check if a number is divisible by both 3 and 7.
+"""#Write a program to check if a number is divisible by both 3 and 7.
 n=int(input())
 if n%3==0 and n%7==0:
     print("YES,given number is divisible by 3 and 7")
@@ -23,7 +23,7 @@ elif x>=50:
 else:
     print("FAIL")
 
-
+#Write a program to find the maximum of four numbers using if-else.
 m=int(input())
 n=int(input())
 o=int(input())
@@ -35,4 +35,16 @@ elif n>o:
 elif o>p:
     print("o is greater")
 else:
-    print("p is greater")
+    print("p is greater")"""
+
+#Write a program to check whether a character is uppercase,
+#  lowercase, digit, or special character.
+q=input()
+if q.isupper():
+    print("Uppercase letter")
+elif q.islower():
+    print("lowercase letter")
+elif q.isdigit():
+    print("digit")
+else:
+    print("special char")

@@ -1,4 +1,4 @@
-#Given two numbers a and b. You need to perform
+"""#Given two numbers a and b. You need to perform
 #  basic mathematical operations on them
 a=int(input())
 b=int(input())
@@ -42,7 +42,7 @@ class Solution:
         elif n==2:
             return 5
         elif n==5:
-            return 
+            return
         elif n==1:
             return 6
         elif n==3:
@@ -57,7 +57,7 @@ class Solution:
 #  even indices(index starts at 0).
 def stringJumper(s):
     for i in range(0,len(s),2):
-        # from 0 to lngth of str and skip 2
+        # from 0 to length of str and skip 2
         print(s[i], end="")
         #printing character and separating characters by nothing
 
@@ -69,11 +69,23 @@ for i in range(x,-1,-1):
     print(i,end=" ")
 
 #3...
-#print the numbers from 1 to x in the order as 
+#print the numbers from 1 to x in the order as
 # 12, 22, 32, 42, 52, ... (in increasing order).
 def printIncreasingPower(x):
     i=1# start from 1
-    while(i*i<=x): unitil i matches or less that given number multiply
+    while(i*i<=x): until i matches or less that given number multiply
         print (i*i , end = " ")
         i=i+1 # i changes and goes to next num
+
+#3...given a number n. The number n can be negative or positive.
+# If n is negative, print numbers from n to 0 by adding 1 to n
+#  the neg function. If positive, print numbers from n-1 to 0 by
+# subtracting 1 from n in the pos function.
+def pos(n):
+    for i in range(n-1,-1,-1):
+        print(i,end=" ")
         
+    
+def neg(n):
+    for i in range(n,1,1):
+        print(i,end=" ")"""

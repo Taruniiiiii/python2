@@ -59,4 +59,10 @@ n = int(input())
         print("Not Weird")
     else:
         print("Weird")
-
+#2
+# Print the square of each number on a separate line.
+ n = int(input())
+    for i in range(0,n):
+        n=n+1
+        n=i*i
+        print(n)

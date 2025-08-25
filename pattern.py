@@ -16,11 +16,20 @@ for i in range(0,n+1):
 n=int(input())
 for i in range(0,n,2):
      n=i+1
-     print(n)"""
+     print(n)
 
 #Write a program to find the factorial of a number.
 n=int(input())
 fact=1
 for i in range(1,n):
     fact=fact*i
-    print(fact)
+    print(fact)"""
+
+#Write a program to reverse a number.
+n=int(input())
+rev=0
+while n>0:
+     digit=n%10
+     rev=rev*10+digit
+     n=n//10
+print(rev)

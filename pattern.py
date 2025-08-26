@@ -23,7 +23,7 @@ n=int(input())
 fact=1
 for i in range(1,n):
     fact=fact*i
-    print(fact)"""
+    print(fact)
 
 #Write a program to reverse a number.
 n=int(input())
@@ -32,4 +32,18 @@ while n>0:
      digit=n%10
      rev=rev*10+digit
      n=n//10
-print(rev)
+print(rev)"""
+
+#Write a program to check if a number is Prime or not.
+n = int(input())
+if n > 1:
+    for i in range(2, n):
+        if n % i == 0:
+            print("Not Prime")
+            break
+    else:
+        print("Prime")
+else:
+    print("Not Prime")
+
+

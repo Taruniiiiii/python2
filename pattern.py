@@ -32,7 +32,7 @@ while n>0:
      digit=n%10
      rev=rev*10+digit
      n=n//10
-print(rev)"""
+print(rev)
 
 #Write a program to check if a number is Prime or not.
 n = int(input())
@@ -44,6 +44,13 @@ if n > 1:
     else:
         print("Prime")
 else:
-    print("Not Prime")
+    print("Not Prime")"""
 
-
+#Take the sides of a triangle and check if it is valid or not.
+a=int(input())
+b=int(input())
+c=int(input())
+if (a+b>c) and (a+c>b) and (b+c>a):
+    print("triangle ")
+else:
+    print("not a triangle")

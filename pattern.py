@@ -40,11 +40,11 @@ if n > 1:
     for i in range(2, n):
         if n % i == 0:
             print("Not Prime")
-            break
+            break"""
     else:
         print("Prime")
 else:
-    print("Not Prime")"""
+    print("Not Prime")
 
 #Take the sides of a triangle and check if it is valid or not.
 a=int(input())

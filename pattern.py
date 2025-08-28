@@ -40,7 +40,7 @@ if n > 1:
     for i in range(2, n):
         if n % i == 0:
             print("Not Prime")
-            break"""
+            break
     else:
         print("Prime")
 else:
@@ -53,4 +53,7 @@ c=int(input())
 if (a+b>c) and (a+c>b) and (b+c>a):
     print("triangle ")
 else:
-    print("not a triangle")
+    print("not a triangle")"""
+
+for i in range(5):
+    print("taruni medishetty")

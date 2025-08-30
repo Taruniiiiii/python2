@@ -56,8 +56,8 @@ else:
     print("not a triangle")
 
 for i in range(5):
-    print("taruni medishetty")"""
+    print("taruni medishetty")
 
-for i in range(1,11):
+for i in range(1,11):"""
     print("2x",i,"=",2*i)
 

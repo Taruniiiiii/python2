@@ -35,7 +35,7 @@ elif n>o:
 elif o>p:
     print("o is greater")
 else:
-    print("p is greater")"""
+    print("p is greater")
 
 #Write a program to check whether a character is uppercase,
 #  lowercase, digit, or special character.
@@ -65,4 +65,19 @@ n = int(input())
     for i in range(0,n):
         n=n+1
         n=i*i
-        print(n)
+        print(n)"""
+
+N = int(input())
+li=[]
+li.insert(0,5)
+    li.insert(1,10)
+    li.insert(0,6)
+    print(li)
+    li.remove(6)
+    li.append(9)
+    li.append(1)
+    li.sort()
+    print(li)
+    li.pop()
+    li.reverse()
+    print(li)

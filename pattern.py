@@ -59,11 +59,11 @@ for i in range(5):
     print("taruni medishetty")
 
 for i in range(1,11):
-    print("2x",i,"=",2*i)"""
+    print("2x",i,"=",2*i)
 
 n=5
 fact=1
-for i in range(1,n+1):
+for i in range(1,n+1):"""
     fact*=i
     print(fact)
 

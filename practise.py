@@ -80,8 +80,8 @@ li.insert(0,5)
     print(li)
     li.pop()
     li.reverse()
-    print(li)"""
-
+    print(li)
+#1 sep
 #powers of 3
 n=int(input())
 if n<=0:
@@ -89,5 +89,13 @@ if n<=0:
 else:
     while n%3==0:
         n//=3
+    print(n==1)"""
+
+#powers of 4
+n=int(input())
+if n<=0:
+    print(False)
+else:
+    while n%4==0:
+        n//=4
     print(n==1)
-        

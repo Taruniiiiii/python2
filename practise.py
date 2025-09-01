@@ -65,7 +65,7 @@ n = int(input())
     for i in range(0,n):
         n=n+1
         n=i*i
-        print(n)"""
+        print(n)
 
 N = int(input())
 li=[]
@@ -80,4 +80,14 @@ li.insert(0,5)
     print(li)
     li.pop()
     li.reverse()
-    print(li)
+    print(li)"""
+
+#powers of 3
+n=int(input())
+if n<=0:
+    print(False)
+else:
+    while n%3==0:
+        n//=3
+    print(n==1)
+        

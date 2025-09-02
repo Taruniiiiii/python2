@@ -89,7 +89,7 @@ if n<=0:
 else:
     while n%3==0:
         n//=3
-    print(n==1)"""
+    print(n==1)
 
 #powers of 4
 n=int(input())
@@ -99,18 +99,15 @@ else:
     while n%4==0:
         n//=4
     print(n==1)
-
+"""
 #sep2
-#perfect squares
-num=int(input())
-while num==1:# if given num is equal to 1
-    print(True) #print true
-i=1#set i=1(index start from 1)
-while i*i<=num:#square  should be less or equal to num
-    if i*i==num:#inside that checking again square is equal to num
+num = int(input())
+i = 1
+
+while i*i <= num:
+    if i*i == num:
         print(True)
-    elif i*i>num:
-        print(False)
-    i=i+1#index should increment(i+=1)
-print(False)   #false for the while loop if the while condition is  wrong
-        
+        break
+    i += 1
+else:
+    print(False)

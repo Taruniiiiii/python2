@@ -63,7 +63,19 @@ for i in range(1,11):
 
 n=5
 fact=1
-for i in range(1,n+1):"""
+for i in range(1,n+1):
     fact*=i
-    print(fact)
+    print(fact)"""
+
+#sep2
+num = int(input())
+i = 1
+
+while i*i <= num:
+    if i*i == num:
+        print(True)
+        break
+    i += 1
+else:
+    print(False)
 

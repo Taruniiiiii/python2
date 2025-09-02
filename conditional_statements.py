@@ -45,4 +45,14 @@ elif age<=35:
     print("Young adult")
 else:
     print("adult")"""
+#sep2
+#login verification
+u="tarunimedi"
+p="jack13"
+usn=str(input("enter username: "))
+passw=str(input("enter your password: "))
+if u==usn and p==passw:
+    print("login successfulllll..")
+else:
+    print("wrong credentials")
 

@@ -55,4 +55,11 @@ if u==usn and p==passw:
     print("login successfulllll..")
 else:
     print("wrong credentials")
-
+#online shopping discount
+n=int(input("bill amount: "))
+if n>=5000:
+    print("You get 20% discount")
+elif n>=2000:
+    print("you get 10% discount")
+else:
+    print("no discount")

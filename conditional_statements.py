@@ -44,7 +44,7 @@ elif age<=19:
 elif age<=35:
     print("Young adult")
 else:
-    print("adult")"""
+    print("adult")
 #sep2
 #login verification
 u="tarunimedi"
@@ -62,4 +62,10 @@ if n>=5000:
 elif n>=2000:
     print("you get 10% discount")
 else:
-    print("no discount")
+    print("no discount")"""
+#Vowel or Consonant Checke
+v=str(input("enter a char: "))
+if v=="a" or v=="e" or v=="i" or v=="o" or v=="u":
+    print("given char is a vowel")
+else:
+    print("not a vowel")

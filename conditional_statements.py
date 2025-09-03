@@ -70,7 +70,7 @@ v=str(input("enter a char: "))
 if v=="a" or v=="e" or v=="i" or v=="o" or v=="u":
     print("given char is a vowel")
 else:
-    print("not a vowel")"""
+    print("not a vowel")
 
 #sep3
 # Hospital Bed Allocation System
@@ -83,4 +83,23 @@ elif condition=="serious":
 elif condition=="normal":
     print("general ward")
 else:
-    print("no patient")
+    print("no patient")"""
+
+#Smart Toll Payment System
+vehicle_type=str(input("car/bike/truck: "))
+payment_type=str(input("cash/FASTag"))
+if vehicle_type=="car" and payment_type=="FASTag":
+    print("Car fare=100,after 10% discount=90")
+elif vehicle_type=="bike" and payment_type=="FAStag":
+    print("Bike fare=50,after 10% discount=45")
+elif vehicle_type=="truck" and payment_type=="FAStag":
+    print("Truck fare=300,after 10% discount:270")
+else:
+    if vehicle_type == "car":
+        print("Car fare =100+10 service fee='110'")
+    elif vehicle_type == "bike":
+        print("Bike fare =50+10 service fee='60'")
+    elif vehicle_type == "truck":
+        print("Truck fare =300+10 service fee='310'")
+    else:
+        print("Invalid vehicle type")

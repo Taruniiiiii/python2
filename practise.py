@@ -99,7 +99,7 @@ else:
     while n%4==0:
         n//=4
     print(n==1)
-"""
+
 #sep2
 num = int(input())
 i = 1
@@ -110,4 +110,15 @@ while i*i <= num:
         break
     i += 1
 else:
-    print(False)
+    print(False)"""
+
+#sep3
+#add digits
+num=int(input())
+while num >= 10:   # more than 1 dig
+    s = 0
+    while num > 0:
+        s += num % 10   # extract last digit
+        num //= 10      # remove last digit
+    num = s             # replace num with digit-sum
+print(num)

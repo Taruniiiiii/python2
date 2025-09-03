@@ -44,7 +44,9 @@ elif age<=19:
 elif age<=35:
     print("Young adult")
 else:
-    print("adult")"""
+    print("adult")
+
+
 #sep2
 #login verification
 u="tarunimedi"
@@ -68,4 +70,17 @@ v=str(input("enter a char: "))
 if v=="a" or v=="e" or v=="i" or v=="o" or v=="u":
     print("given char is a vowel")
 else:
-    print("not a vowel")
+    print("not a vowel")"""
+
+#sep3
+# Hospital Bed Allocation System
+
+condition=str(input("Patient condition: "))
+if condition=="critical":
+    print("icu bed")
+elif condition=="serious":
+    print("special ward")
+elif condition=="normal":
+    print("general ward")
+else:
+    print("no patient")

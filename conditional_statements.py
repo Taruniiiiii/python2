@@ -110,12 +110,23 @@ vehicle_type=str(input("Vehicle type(car/bike): "))
 time_of_day=str(input("peak time(8-10am)and(5-8pm)||off-peak time(late  night or mid day): "))
 parking_time=int(input("How much time are you going to park your vehicle: "))
 if vehicle_type=="car" and time_of_day=="peak" and parking_time<12:
-    print("50/hr and +20% charge total=70")
+    parking_time=parking_time*50+20
+    print("to pay...",parking_time)
 elif vehicle_type=="bike" and time_of_day=="peak" and parking_time<12:
-    print("20/hr and +20% charge total=40")
+    parking_time=parking_time*20+20
+    print("to pay...",parking_time)
 elif parking_time>12:
     print("not allowed!!!")
 elif  vehicle_type=="car" and time_of_day=="off-peak":
-    print("no extra charge for off-peak just pay _50_")
+    parking_time=parking_time*50
+    print("to pay...",parking_time)
+elif  vehicle_type=="bike" and time_of_day=="off-peak":
+    parking_time=parking_time*20
+    print("to pay...",parking_time)
 else:
-    print("no extra charge for off-peak just pay _20_")
+    print("invalid vehicle_type")
+"""
+#Bank ATM Cash Dispenser
+pin=int(1234)
+withdrawal_amt=int(input("enter the amt you want to withdraw"))
+"""

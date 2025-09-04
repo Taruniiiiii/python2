@@ -83,7 +83,7 @@ elif condition=="serious":
 elif condition=="normal":
     print("general ward")
 else:
-    print("no patient")"""
+    print("no patient")
 
 #Smart Toll Payment System
 vehicle_type=str(input("car/bike/truck: "))
@@ -102,4 +102,20 @@ else:
     elif vehicle_type == "truck":
         print("Truck fare =300+10 service fee='310'")
     else:
-        print("Invalid vehicle type")
+        print("Invalid vehicle type")"""
+
+#sep4
+#Smart Parking System
+vehicle_type=str(input("Vehicle type(car/bike): "))
+time_of_day=str(input("peak time(8-10am)and(5-8pm)||off-peak time(late  night or mid day): "))
+parking_time=int(input("How much time are you going to park your vehicle: "))
+if vehicle_type=="car" and time_of_day=="peak" and parking_time<12:
+    print("50/hr and +20% charge total=70")
+elif vehicle_type=="bike" and time_of_day=="peak" and parking_time<12:
+    print("20/hr and +20% charge total=40")
+elif parking_time>12:
+    print("not allowed!!!")
+elif  vehicle_type=="car" and time_of_day=="off-peak":
+    print("no extra charge for off-peak just pay _50_")
+else:
+    print("no extra charge for off-peak just pay _20_")

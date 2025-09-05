@@ -10,7 +10,7 @@ for i in range(n):
 #Multiplication Table
 num=int(input("enter a num u want to multiply: "))
 for i in range(1,11):
-      print(num,"X",i,"=",num*i)"""
+      print(num,"X",i,"=",num*i)
 #ATM Cash Withdrawal Simulation
 balance=int(5000)
 while balance>0:
@@ -20,5 +20,16 @@ while balance>0:
         print(withdraw,"here is your money")
     else:
         print("insufficient balance")
-    break
-
+    break"""
+#Parking Lot Counter
+max_slots=5
+count=int(input())
+if count>=max_slots:
+    print("parking full")
+else:
+    while count<max_slots:
+        count+=1
+        if count>=max_slots:
+            print("parking full")
+        else:
+            print("you can park your vehicle")

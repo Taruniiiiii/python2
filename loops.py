@@ -34,7 +34,9 @@ else:
         if count>=max_slots:
             print("parking full")
         else:
-            print("you can park your vehicle")"""
+            print("you can park your vehicle")
+
+            
 #Password Attempt System
 act_password="taruni@123"
 count=0
@@ -47,6 +49,11 @@ while count<3:
         print("wrong pass")
         count=count+1
 if count==3:
-    print("acc locked")
-
-
+    print("acc locked")"""
+#bus ticket booking
+tickets=int(input("no of tickets: "))
+for i in range(1,tickets+1):
+    name=str(input("enter your name: "))
+    age=int(input("age:" ))
+    print(name,age)
+    

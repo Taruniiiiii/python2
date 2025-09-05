@@ -7,6 +7,7 @@ for i in range(n):
        for j in range(i+1,n):
               if nums[i]+nums[j]==target:
                    print([i,j])
+
 #Multiplication Table
 num=int(input("enter a num u want to multiply: "))
 for i in range(1,11):
@@ -20,7 +21,8 @@ while balance>0:
         print(withdraw,"here is your money")
     else:
         print("insufficient balance")
-    break"""
+    break
+
 #Parking Lot Counter
 max_slots=5
 count=int(input())
@@ -32,4 +34,19 @@ else:
         if count>=max_slots:
             print("parking full")
         else:
-            print("you can park your vehicle")
+            print("you can park your vehicle")"""
+#Password Attempt System
+act_password="taruni@123"
+count=0
+while count<3:
+    password=input("enter your password: ")
+    if password==act_password:
+        print("login success")
+        break#exits the loop if entered pass is crt
+    else:
+        print("wrong pass")
+        count=count+1
+if count==3:
+    print("acc locked")
+
+

@@ -102,7 +102,7 @@ else:
     elif vehicle_type == "truck":
         print("Truck fare =300+10 service fee='310'")
     else:
-        print("Invalid vehicle type")"""
+        print("Invalid vehicle type")
 
 #sep4
 #Smart Parking System
@@ -129,4 +129,10 @@ else:
 #Bank ATM Cash Dispenser
 pin=int(1234)
 withdrawal_amt=int(input("enter the amt you want to withdraw"))
-"""
+balance_amt=int(input("Enter balance amt: "))
+pin_crt=int(input("enter your pin: "))
+if pin_crt==pin and balance_amt>=withdrawal_amt and withdrawal_amt%100==0:
+    print("Here is your money!!!")
+else:
+    print("invalid")
+

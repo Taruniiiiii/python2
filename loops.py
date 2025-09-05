@@ -6,8 +6,19 @@ n=len(nums)
 for i in range(n):
        for j in range(i+1,n):
               if nums[i]+nums[j]==target:
-                   print([i,j])"""
+                   print([i,j])
 #Multiplication Table
 num=int(input("enter a num u want to multiply: "))
 for i in range(1,11):
-      print(num,"X",i,"=",num*i)
+      print(num,"X",i,"=",num*i)"""
+#ATM Cash Withdrawal Simulation
+balance=int(5000)
+while balance>0:
+    withdraw=int(input("How much u want to withdraw: "))
+    if withdraw<=balance:
+        balance=balance-withdraw
+        print(withdraw,"here is your money")
+    else:
+        print("insufficient balance")
+    break
+

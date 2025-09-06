@@ -49,11 +49,27 @@ while count<3:
         print("wrong pass")
         count=count+1
 if count==3:
-    print("acc locked")"""
+    print("acc locked")
 #bus ticket booking
 tickets=int(input("no of tickets: "))
 for i in range(1,tickets+1):
     name=str(input("enter your name: "))
     age=int(input("age:" ))
-    print(name,age)
+    print(name,age)"""
+
+# Sum of Shopping Bills
+
+total = 0
+
+while True:
+    price = input("Enter item price (0 or 'finish' to stop): ")
+
+    if price == "0" or price.lower() == "finish":
+        break
+
+    # convert to number and add
+    total += float(price)
+
+print("Total bill amount = ₹", total)
+
     

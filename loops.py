@@ -57,19 +57,26 @@ for i in range(1,tickets+1):
     age=int(input("age:" ))
     print(name,age)"""
 
-# Sum of Shopping Bills
+# Cafeteria Ordering System
 
-total = 0
-
+total=0
+print("1: Pizza = 120\n2: Burger = 80\n3: Coffee = 50\n0: Exit")
 while True:
-    price = input("Enter item price (0 or 'finish' to stop): ")
-
-    if price == "0" or price.lower() == "finish":
+    choice=int(input("enter your choice"))
+    if choice==1:
+        total=total+120
+        print("Pizza added ")
+    elif choice == 2:
+        total += 80
+        print("Burger added ")
+    elif choice == 3:
+        total += 50
+        print("Coffee added ")
+    elif choice == 0:
         break
+    else:
+        print("invalid choice")
+print("final bill= ",total)
 
-    # convert to number and add
-    total += float(price)
 
-print("Total bill amount = ₹", total)
 
-    

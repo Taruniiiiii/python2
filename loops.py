@@ -55,7 +55,7 @@ tickets=int(input("no of tickets: "))
 for i in range(1,tickets+1):
     name=str(input("enter your name: "))
     age=int(input("age:" ))
-    print(name,age)"""
+    print(name,age)
 
 # Cafeteria Ordering System
 
@@ -76,7 +76,24 @@ while True:
         break
     else:
         print("invalid choice")
-print("final bill= ",total)
+print("final bill= ",total)"""
 
+#Movie Ticket Booking
+tickets = int(input("How many tickets: "))
+tot=0
 
+for i in range(1,tickets+1):
+    age = int(input("Enter age of passenger : "))
+
+    if age < 12:
+        print("Child Price=50")
+        tot+=50
+    elif age <= 59:
+        print("Adult Price=100")
+        tot+=100
+    else:
+        print("Senior Citizen Price=70")
+        tot+=70
+print("total tickets: ",tickets)
+print("tot amt: ",tot )
 

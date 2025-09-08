@@ -76,7 +76,7 @@ while True:
         break
     else:
         print("invalid choice")
-print("final bill= ",total)"""
+print("final bill= ",total)
 
 #Movie Ticket Booking
 tickets = int(input("How many tickets: "))
@@ -95,5 +95,20 @@ for i in range(1,tickets+1):
         print("Senior Citizen Price=70")
         tot+=70
 print("total tickets: ",tickets)
-print("tot amt: ",tot )
-
+print("tot amt: ",tot )"""
+#Student Result Processing
+tot=0
+for i in range(1,6):
+    marks=int(input(f"enter marks of sub {i}: "))#replace str with actual values
+    tot=tot+marks
+average=tot/5
+print("tot marks: ",tot)
+print("average: ",average)
+if average>=90:
+    print("grade A")
+elif average>=75:
+    print("grade A")
+if average>=50:
+    print("grade A")
+else:
+    print("FAIL!!")

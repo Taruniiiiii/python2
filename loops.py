@@ -123,7 +123,7 @@ elif days_late<=30:
     fine=days_late*10
 else:
     fine="cancelled"
-print("fine= ",fine)"""
+print("fine= ",fine)
 
 #Bank ATM Simulation
 balance=5000
@@ -136,3 +136,35 @@ else:
     balance -= withdrawal_amt
     print(" collect your cash")
     print("remaining balance:", balance)
+"""
+#using loops
+balance=5000
+while True:
+    print("1.check balance")
+    print("2.withdraw")
+    print("3.deposit amt")
+    print("0.exit")
+
+    choice=int(input("enter your choice: "))
+
+    if choice==1:
+        print("current balance",balance)
+    elif choice==2:
+        withdraw=int(input("enter withdrawal amt: "))
+        if withdraw%100!=0:
+            print("withdrawal amt is not multiple of 100")
+        elif withdraw>balance:
+            print("insufficient balance")
+        else:
+            balance=balance-withdraw
+            print("remainning balance",balance)
+    
+    elif choice==3:
+        dep_amt=int(input("dep amt: "))
+        balance=balance+dep_amt
+        print("updated  balance: ",balance)
+    elif choice==0:
+        print("exit")
+        break
+    else:
+        print("invalid choice")

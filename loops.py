@@ -111,7 +111,7 @@ elif average>=75:
 if average>=50:
     print("grade A")
 else:
-    print("FAIL!!")"""
+    print("FAIL!!")
 
 #Library Fine System
 days_late=int(input("no.of days late: "))
@@ -123,6 +123,16 @@ elif days_late<=30:
     fine=days_late*10
 else:
     fine="cancelled"
-print("fine= ",fine)
+print("fine= ",fine)"""
 
-
+#Bank ATM Simulation
+balance=5000
+withdrawal_amt=int(input("enter withdrawal amt: "))
+if withdrawal_amt % 100 != 0:
+    print("withdrawal amount must be in multiples of 100")
+elif withdrawal_amt > balance:
+    print("Insufficient balance")
+else:
+    balance -= withdrawal_amt
+    print(" collect your cash")
+    print("remaining balance:", balance)

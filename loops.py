@@ -100,7 +100,7 @@ print("tot amt: ",tot )"""
 tot=0
 for i in range(1,6):
     marks=int(input(f"enter marks of sub {i}: "))#replace str with actual values
-    tot=tot+marks
+    tot=tot+marks#updates  tot value acc to given marks
 average=tot/5
 print("tot marks: ",tot)
 print("average: ",average)

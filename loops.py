@@ -95,7 +95,7 @@ for i in range(1,tickets+1):
         print("Senior Citizen Price=70")
         tot+=70
 print("total tickets: ",tickets)
-print("tot amt: ",tot )"""
+print("tot amt: ",tot )
 #Student Result Processing
 tot=0
 for i in range(1,6):
@@ -111,4 +111,18 @@ elif average>=75:
 if average>=50:
     print("grade A")
 else:
-    print("FAIL!!")
+    print("FAIL!!")"""
+
+#Library Fine System
+days_late=int(input("no.of days late: "))
+if days_late<=5:
+    fine=days_late*2
+elif days_late<=10:
+    fine=days_late*5
+elif days_late<=30:
+    fine=days_late*10
+else:
+    fine="cancelled"
+print("fine= ",fine)
+
+

@@ -179,18 +179,18 @@ while True:
         break#if give value is 0 it does not take any prices further
     total += price #every item price is added to total
 
-print("Total bill before discount = ", total)
+print("total bill before discount: ",total)
 
 #discount is applied acc to user spending
 if total>=5000:
-    discount=total*0.20 # 20% discount
+    discount=total*0.20 #20% discount applied
 elif total>=3000:
     discount=total*0.15 #15% discount
 elif total>=1000:
-    discount=total*0.10 # 10% discount
+    discount=total*0.10 #10% discount
 else:
     discount=0
 
 final_amt=total-discount
 print(f"Discount applied: {discount}")#f function is used  to replace variable with actual number
-print(f"Final payable amount: {final_amt}")
+print(f"Final amount: {final_amt}")

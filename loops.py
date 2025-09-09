@@ -260,23 +260,23 @@ if choice==1:
     price=2000
     room="deluxe"
 elif choice== 2:
-    price = 3000
-    room = "Suite"
-elif choice == 3:
-    price = 1500
-    room = "Standard"
+    price=3000
+    room="suite"
+elif choice==3:
+    price=1500
+    room="standard"
 else:
-    print("❌ Invalid room choice")
-    exit()
+    print("invalid choice")
+    price=0#we can also use exit() function  if user gives invalidd choice  it stps the program
+    room="none"
 
-bill = price * nights
-gst = bill * 0.18
-total = bill + gst
+bill=price*nights
+gst=bill*0.18
+total=bill+gst
 
-print("\n------ Booking Details ------")
-print(f"Room Type: {room}")
-print(f"Nights: {nights}")
-print(f"Base Amount: ₹{bill}")
-print(f"GST (18%): ₹{gst}")
-print(f"Total Payable: ₹{total}")
+print(f"room Type: {room}")
+print(f"nights: {nights}")
+print(f"base Amount: {bill}")
+print(f"GST(18%): {gst}")
+print(f"total Payable: {total}")
 

@@ -167,7 +167,7 @@ while True:
         print("exit")
         break
     else:
-        print("invalid choice")"""
+        print("invalid choice"
 
 #Shopping Discount System
 
@@ -194,3 +194,54 @@ else:
 final_amt=total-discount
 print(f"Discount applied: {discount}")#f function is used  to replace variable with actual number
 print(f"Final amount: {final_amt}")
+"""
+# Online Quiz System
+
+score = 0
+print("Welcome to Python Quiz")
+
+#1
+print("\n1. Who developed Python?")
+print("a) Dennis Ritchie\nb) Guido van Rossum\nc) James Gosling\nd) Bjarne Stroustrup")
+ans = input("Your answer: ")
+if ans.lower() == "b":
+    score += 1
+
+# Q2
+print("\n2. Which keyword is used to define a function in Python?")
+print("a) def\nb) function\nc) fun\nd) define")
+ans = input("Your answer: ")
+if ans.lower() == "a":
+    score += 1
+
+# Q3
+print("\n3. Which data structure uses key-value pairs?")
+print("a) List\nb) Dictionary\nc) Tuple\nd) Set")
+ans = input("Your answer: ")
+if ans.lower() == "b":
+    score += 1
+
+# Q4
+print("\n4. What is the output of 2 ** 3 in Python?")
+print("a) 6\nb) 8\nc) 9\nd) 5")
+ans = input("Your answer: ")
+if ans.lower() == "b":
+    score += 1
+
+# Q5
+print("\n5. Which of the following is immutable?")
+print("a) List\nb) Dictionary\nc) Tuple\nd) Set")
+ans = input("Your answer: ")
+if ans.lower() == "c":
+    score += 1
+
+# Final Score
+print("\n------ Quiz Finished ------")
+print(f"Your final score: {score}/5")
+
+if score == 5:
+    print("🏆 Excellent! Perfect Score!")
+elif score >= 3:
+    print("👍 Good Job!")
+else:
+    print("😢 Better luck next time.")

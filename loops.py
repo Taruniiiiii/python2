@@ -136,7 +136,7 @@ else:
     balance -= withdrawal_amt
     print(" collect your cash")
     print("remaining balance:", balance)
-"""
+
 #using loops
 balance=5000
 while True:
@@ -167,4 +167,30 @@ while True:
         print("exit")
         break
     else:
-        print("invalid choice")
+        print("invalid choice")"""
+
+#Shopping Discount System
+
+total = 0
+
+while True:
+    price = float(input("Enter item price: "))
+    if price == 0:
+        break
+    total += price
+
+print("Total bill before discount = ", total)
+
+# Apply discounts
+if total>=5000:
+    discount=total*0.20 # 20% discount
+elif total>=3000:
+    discount=total * 0.15   # 15% discount
+elif total >= 1000:
+    discount = total * 0.10   # 10% discount
+else:
+    discount = 0
+
+final_amount = total - discount
+print(f"Discount applied: {discount}")
+print(f"Final payable amount: {final_amount}")

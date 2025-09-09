@@ -176,21 +176,21 @@ total = 0
 while True:
     price = float(input("Enter item price: "))
     if price == 0:
-        break
-    total += price
+        break#if give value is 0 it does not take any prices further
+    total += price #every item price is added to total
 
 print("Total bill before discount = ", total)
 
-# Apply discounts
+#discount is applied acc to user spending
 if total>=5000:
     discount=total*0.20 # 20% discount
 elif total>=3000:
-    discount=total * 0.15   # 15% discount
-elif total >= 1000:
-    discount = total * 0.10   # 10% discount
+    discount=total*0.15 #15% discount
+elif total>=1000:
+    discount=total*0.10 # 10% discount
 else:
-    discount = 0
+    discount=0
 
-final_amount = total - discount
-print(f"Discount applied: {discount}")
-print(f"Final payable amount: {final_amount}")
+final_amt=total-discount
+print(f"Discount applied: {discount}")#f function is used  to replace variable with actual number
+print(f"Final payable amount: {final_amt}")

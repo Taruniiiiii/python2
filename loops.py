@@ -289,6 +289,9 @@ print(li[-1],"is the max in given list")
 #second largest element
 print(li[-2],"is the second largest element")
 
-
-
+n=int(input())
+for i in range(1, n+1):
+    for j in range(1, i+1):
+        print(j, end=" ")
+    print()
 

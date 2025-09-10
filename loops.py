@@ -243,7 +243,7 @@ if score == 5:
 elif score >= 3:
     print("Good Job!")
 else:
-    print("Better luck next time")"""
+    print("Better luck next time")
 
 # Hotel Room Booking System
 
@@ -278,5 +278,15 @@ print(f"room Type: {room}")
 print(f"nights: {nights}")
 print(f"base Amount: {bill}")
 print(f"GST(18%): {gst}")
-print(f"total Payable: {total}")
+print(f"total Payable: {total}")"""
+
+#loops + conditionals + arrays/strings
+#1.max num in list
+li=[1,2,3,4,5,6,78,4,43,555,123]
+li.sort()
+print(li)
+print(li[-1],"is the max in given list")
+
+
+
 

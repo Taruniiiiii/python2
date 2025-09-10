@@ -286,6 +286,8 @@ li=[1,2,3,4,5,6,78,4,43,555,123]
 li.sort()
 print(li)
 print(li[-1],"is the max in given list")
+#second largest element
+print(li[-2],"is the second largest element")
 
 
 

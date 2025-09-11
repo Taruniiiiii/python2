@@ -278,7 +278,7 @@ print(f"room Type: {room}")
 print(f"nights: {nights}")
 print(f"base Amount: {bill}")
 print(f"GST(18%): {gst}")
-print(f"total Payable: {total}")"""
+print(f"total Payable: {total}")
 
 #loops + conditionals + arrays/strings
 #1.max num in list
@@ -288,10 +288,9 @@ print(li)
 print(li[-1],"is the max in given list")
 #second largest element
 print(li[-2],"is the second largest element")
-
-n=int(input())
-for i in range(1, n+1):
-    for j in range(1, i+1):
-        print(j, end=" ")
+"""
+n=5
+for i in range(0, n):
+    for j in range(0,i+1):
+        print("*",end=" ")
     print()
-

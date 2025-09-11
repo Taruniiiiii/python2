@@ -288,9 +288,21 @@ print(li)
 print(li[-1],"is the max in given list")
 #second largest element
 print(li[-2],"is the second largest element")
-"""
+
 n=5
 for i in range(0, n):
     for j in range(0,i+1):
+        print("*",end=" ")
+    print()
+#otp
+* 
+* * 
+* * *
+* * * *
+* * * * *"""
+
+n=5
+for i in range(n,0):
+    for j in range(i-1,0):
         print("*",end=" ")
     print()

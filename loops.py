@@ -317,8 +317,8 @@ for i in range(0,n):
     for j in range(i+1):
         print(i,end=" ")
     print()
-#otp"""
-"""0 
+#otp
+ 
 1 1
 2 2 2
 3 3 3 3
@@ -335,10 +335,16 @@ for i in range(1,n):
 1 2
 1 2 3
 1 2 3 4
-1 2 3 4 5"""
+1 2 3 4 5
 
 n=int(input())
 for i in range(1,n+1):
-    print(" " * (n-1),end="")
-    print("*")
-
+    print(" " * (n-i),end="")
+    print("*"*(2*i-1))#prints * odd no of times
+#
+     *
+    ***
+   *****
+  *******
+ *********
+***********

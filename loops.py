@@ -366,7 +366,7 @@ for i in range(n-1,0,-1):
   *******
    *****
     ***
-     *"""
+     *
 #leetcode
 X=0
         for val in operations:
@@ -374,5 +374,5 @@ X=0
                 X+=1
             else:
                 X-=1
-        return X
+        return X"""
     

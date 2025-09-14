@@ -360,7 +360,7 @@ for i in range(n-1,0,-1):
     ***
    *****
   *******
- *********
+ *********"""
 ***********
  *********
   *******
@@ -370,7 +370,7 @@ for i in range(n-1,0,-1):
 #leetcode
 X=0
         for val in operations:
-            if "++" in val:"""
+            if "++" in val:
                 X+=1
             else:
                 X-=1

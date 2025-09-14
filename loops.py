@@ -372,7 +372,7 @@ X=0
         for val in operations:
             if "++" in val:
                 X+=1
-            else:
+            else:"""
                 X-=1
-        return X"""
+        return X
     

@@ -356,7 +356,7 @@ for i in range(n-1,0,-1):
     print(" "*(n-i),end="")
     print("*"*(2*i-1))
 #otp
-     *"""
+     *
     ***
    *****
   *******
@@ -374,7 +374,7 @@ X=0
                 X+=1
             else:
                 X-=1
-        return X
+        return X"""
 
 #count-operations-to-obtain-zero
 operations = 0

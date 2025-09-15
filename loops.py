@@ -375,3 +375,5 @@ X=0
             else:
                 X-=1
         return X
+
+#count-operations-to-obtain-zero

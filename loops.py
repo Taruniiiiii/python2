@@ -374,7 +374,7 @@ X=0
                 X+=1
             else:
                 X-=1
-        return X"""
+        return X
 
 #count-operations-to-obtain-zero
 operations = 0
@@ -384,4 +384,17 @@ operations = 0
             else:
                 num2 -= num1
             operations += 1
-        return operations
+        return operations"""
+
+
+n = 4   # number of rows
+num = 1 # starting number
+
+for i in range(1, n+1):  # rows
+    for j in range(i):   # print i numbers in that row
+        print(num, end=" ")
+        num += 1
+    print()  # new line after each row
+
+
+

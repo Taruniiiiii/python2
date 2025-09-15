@@ -377,3 +377,11 @@ X=0
         return X
 
 #count-operations-to-obtain-zero
+operations = 0
+        while num1 != 0 and num2 != 0:
+            if num1 >= num2:
+                num1 -= num2
+            else:
+                num2 -= num1
+            operations += 1
+        return operations

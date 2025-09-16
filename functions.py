@@ -1,4 +1,5 @@
 #syntax:
+#def=keyword
 """
 def function_name(parameters):
     #function body

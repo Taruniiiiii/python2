@@ -24,8 +24,15 @@ def myFun(x=90, y=50):
     print("y: ", y)
 
 myFun()
+#similar
 def myFun(x, y=90):
     print("x: ", x)
     print("y: ", y)
 
 myFun(109)
+
+#first name last name
+def emp(first_name,last_name):
+    print(first_name,last_name)
+emp(first_name="taruni",last_name="medishetty")
+emp(first_name="ashritha",last_name="sadhu")

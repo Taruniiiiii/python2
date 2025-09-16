@@ -24,3 +24,8 @@ def myFun(x=90, y=50):
     print("y: ", y)
 
 myFun()
+def myFun(x, y=90):
+    print("x: ", x)
+    print("y: ", y)
+
+myFun(109)

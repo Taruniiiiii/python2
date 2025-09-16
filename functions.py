@@ -36,3 +36,4 @@ def emp(first_name,last_name):
     print(first_name,last_name)
 emp(first_name="taruni",last_name="medishetty")
 emp(first_name="ashritha",last_name="sadhu")
+emp(last_name="medishetty",first_name="sohan")

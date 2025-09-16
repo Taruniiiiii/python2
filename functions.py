@@ -17,3 +17,10 @@ def evenOdd(x):
 
 print(evenOdd(999))
 print(evenOdd(8))
+
+#ex.3
+def myFun(x=90, y=50):
+    print("x: ", x)
+    print("y: ", y)
+
+myFun()

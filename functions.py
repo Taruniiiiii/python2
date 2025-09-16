@@ -31,9 +31,23 @@ def myFun(x, y=90):
 
 myFun(109)
 
+#ex.4
 #first name last name
 def emp(first_name,last_name):
     print(first_name,last_name)
 emp(first_name="taruni",last_name="medishetty")
 emp(first_name="ashritha",last_name="sadhu")
 emp(last_name="medishetty",first_name="sohan")
+
+#ex.5
+def namePlace(name,place,dob):
+    print("hi i'm",name)
+    print("i'm from",place)
+    print("i'm from",dob)
+
+print("emp1")
+namePlace("sohan","medak",2011)
+
+print("emp2")
+namePlace("thanish",2009,"hyderabad")
+

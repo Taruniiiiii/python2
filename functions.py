@@ -50,7 +50,7 @@ print("emp1")
 namePlace("sohan","medak",2011)
 
 print("emp2")
-namePlace("thanish",2009,"hyderabad")
+namePlace("thanish",2009,"hyderabad")"""
 
 #ex
 def f1():
@@ -64,7 +64,7 @@ f1()
 #ex
 def cube(x):
     return x*x*x
-print(cube(2))"""
+print(cube(2))
 #ex.geeksforgeeks
 def argumentFunction(a=2,b=3):
     print(a+b)

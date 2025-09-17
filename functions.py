@@ -52,3 +52,12 @@ namePlace("sohan","medak",2011)
 print("emp2")
 namePlace("thanish",2009,"hyderabad")
 
+#ex
+def f1():
+    s = "helloooo"
+    def f2():
+        print(s)
+        
+    f2()
+f1()
+

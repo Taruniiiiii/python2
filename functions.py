@@ -3,7 +3,7 @@
 """
 def function_name(parameters):
     #function body
-    """
+    
 #ex.1
 def function_name():
     print("I'm taruniii")
@@ -64,8 +64,9 @@ f1()
 #ex
 def cube(x):
     return x*x*x
-print(cube(2))
+print(cube(2))"""
 #ex.geeksforgeeks
+def argumentFunction(a=2,b=3):
+    print(a+b)
 
-def helloFunction():
-    print("Hello")
+

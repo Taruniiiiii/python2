@@ -65,3 +65,7 @@ f1()
 def cube(x):
     return x*x*x
 print(cube(2))
+#ex.geeksforgeeks
+
+def helloFunction():
+    print("Hello")

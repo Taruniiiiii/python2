@@ -61,3 +61,7 @@ def f1():
     f2()
 f1()
 
+#ex
+def cube(x):
+    return x*x*x
+print(cube(2))

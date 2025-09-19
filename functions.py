@@ -45,7 +45,7 @@ def namePlace(name,place,dob):
     print("hi i'm",name)
     print("i'm from",place)
     print("i'm from",dob)
-
+"""
 print("emp1")
 namePlace("sohan","medak",2011)
 
@@ -67,7 +67,7 @@ def cube(x):
 print(cube(2))
 #ex.geeksforgeeks
 def argumentFunction(a=2,b=3):
-    print(a+b)"""
+    print(a+b)
 
 def firstDigit(n):
     while n>9:

@@ -45,7 +45,7 @@ def namePlace(name,place,dob):
     print("hi i'm",name)
     print("i'm from",place)
     print("i'm from",dob)
-"""
+
 print("emp1")
 namePlace("sohan","medak",2011)
 
@@ -72,7 +72,13 @@ def argumentFunction(a=2,b=3):
 def firstDigit(n):
     while n>9:
         n=n//10
-    return n
+    return n"""
+
+#exleetcode
+nums=[1,2,3,3,44,1,12,5]
+for i in nums:
+    if nums.count(i) == 1:
+        print(i)
 
 
 

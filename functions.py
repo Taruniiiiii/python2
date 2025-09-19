@@ -69,4 +69,10 @@ print(cube(2))
 def argumentFunction(a=2,b=3):
     print(a+b)"""
 
+def firstDigit(n):
+    while n>9:
+        n=n//10
+    return n
+
+
 

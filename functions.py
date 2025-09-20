@@ -75,8 +75,8 @@ def firstDigit(n):
     return n
 
 #exleetcode
-nums=[1,2,3,3,44,1,12,5]"""
-for i in nums:
+nums=[1,2,3,3,44,1,12,5]
+for i in nums:"""
     if nums.count(i) == 1:
         print(i)
 

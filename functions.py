@@ -84,7 +84,7 @@ class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:
         n = len(s)
         result = [""] * n   # empty array of length n
-        for i in range(n):
+        for i in range(n):"""
             result[indices[i]] = s[i]
         return "".join(result)
 

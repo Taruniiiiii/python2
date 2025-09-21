@@ -77,15 +77,15 @@ def firstDigit(n):
 #exleetcode
 nums=[1,2,3,3,44,1,12,5]
 for i in nums:
-    if nums.count(i) == 1:"""
+    if nums.count(i) == 1:
         print(i)
-
+"""
 class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:
         n = len(s)
         result = [""] * n   # empty array of length n
         for i in range(n):
-            result[indices[i]] = s[i]"""
+            result[indices[i]] = s[i]
         return "".join(result)
 
 

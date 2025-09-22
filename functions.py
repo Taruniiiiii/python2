@@ -79,14 +79,17 @@ nums=[1,2,3,3,44,1,12,5]
 for i in nums:
     if nums.count(i) == 1:
         print(i)
-"""
+
 class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:
         n = len(s)
         result = [""] * n   # empty array of length n
         for i in range(n):
             result[indices[i]] = s[i]
-        return "".join(result)
+        return "".join(result)"""
 
-
+#Write a function that takes a string and returns it in reverse.
+def reverseString(str):
+    return str[::-1]
+print(reverseString("taruni"))
 

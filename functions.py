@@ -86,7 +86,7 @@ class Solution:
         result = [""] * n   # empty array of length n
         for i in range(n):
             result[indices[i]] = s[i]
-        return "".join(result)"""
+        return "".join(result)
 
 #Write a function that takes a string and returns it in reverse.
 def reverseString(str):
@@ -95,6 +95,6 @@ print(reverseString("taruni"))
 
 #Write a function that finds the maximum element in a list.
 li=[1,2,4,888,5,44,7]
-def maxEleInList(li):
+def maxEleInList(li):"""
     return max(li)
 print(maxEleInList(li),"is max in list")

@@ -91,10 +91,10 @@ class Solution:
 #Write a function that takes a string and returns it in reverse.
 def reverseString(str):
     return str[::-1]
-print(reverseString("taruni"))
+print(reverseString("taruni"))"""
 
 #Write a function that finds the maximum element in a list.
 li=[1,2,4,888,5,44,7]
-def maxEleInList(li):"""
+def maxEleInList(li):
     return max(li)
 print(maxEleInList(li),"is max in list")

@@ -86,11 +86,11 @@ class Solution:
         result = [""] * n   # empty array of length n
         for i in range(n):
             result[indices[i]] = s[i]
-        return "".join(result)
+        return "".join(result)"""
 
 #Write a function that takes a string and returns it in reverse.
 def reverseString(str):
-    return str[::-1]"""
+    return str[::-1]
 print(reverseString("taruni"))
 
 #Write a function that finds the maximum element in a list.

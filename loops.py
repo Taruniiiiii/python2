@@ -396,5 +396,9 @@ for i in range(1, n+1):  # rows
         num += 1
     print()  # new line after each row
 
+#leetcode
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        return nums + nums
 
+        
 

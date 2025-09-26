@@ -399,6 +399,10 @@ for i in range(1, n+1):  # rows
 #leetcode
     def getConcatenation(self, nums: List[int]) -> List[int]:
         return nums + nums
+#2
+def singleNumber(self, nums: List[int]) -> int:
+        for i in nums:
+            if nums.count(i) == 1:
+                return i
 
-        
 

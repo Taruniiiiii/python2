@@ -393,7 +393,7 @@ num = 1 # starting number
 for i in range(1, n+1):  # rows
     for j in range(i):   # print i numbers in that row
         print(num, end=" ")
-        num += 1
+        num += 1"""
     print()  # new line after each row
 
 #leetcode
@@ -401,7 +401,7 @@ for i in range(1, n+1):  # rows
         return nums + nums
 #2
 def singleNumber(self, nums: List[int]) -> int:
-        for i in nums:"""
+        for i in nums:
             if nums.count(i) == 1:
                 return i
 

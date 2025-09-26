@@ -384,7 +384,7 @@ operations = 0
             else:
                 num2 -= num1
             operations += 1
-        return operations"""
+        return operations
 
 
 n = 4   # number of rows
@@ -401,7 +401,7 @@ for i in range(1, n+1):  # rows
         return nums + nums
 #2
 def singleNumber(self, nums: List[int]) -> int:
-        for i in nums:
+        for i in nums:"""
             if nums.count(i) == 1:
                 return i
 

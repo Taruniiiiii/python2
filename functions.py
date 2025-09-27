@@ -1,14 +1,14 @@
-#syntax:
+"""#syntax:
 #def=keyword
-"""
+
 def function_name(parameters):
     #function body
-    
+    """
 #ex.1
 def function_name():
     print("I'm taruniii")
 function_name()#calling function
-
+"""
 #ex.2
 def evenOdd(x):
     if (x%2==0):
@@ -84,7 +84,7 @@ class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:
         n = len(s)
         result = [""] * n   # empty array of length n
-        for i in range(n):"""
+        for i in range(n):
             result[indices[i]] = s[i]
         return "".join(result)
 
@@ -98,3 +98,4 @@ li=[1,2,4,888,5,44,7]
 def maxEleInList(li):
     return max(li)
 print(maxEleInList(li),"is max in list")
+"""

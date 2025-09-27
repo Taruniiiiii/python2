@@ -407,7 +407,6 @@ def singleNumber(self, nums: List[int]) -> int:
 """
 def printNos(self,n,i=1):
     if i<=n:
-        print(i,end="")
-        printNos(n,i+1)
-printNos(5)
+        print(i,end=" ")
+        self.printNos(n,i+1)#n=end,i+1=increment
 

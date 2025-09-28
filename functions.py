@@ -127,4 +127,4 @@ def taxi_Calculator(distance_in_km):
     fare=distance_in_km*10
     return fare
 print(taxi_Calculator(15),"is your taxi fare")
-print(taxi_Calculator(1),"is your taxi fare")
+print(taxi_Calculator(5),"is your taxi fare")

@@ -106,3 +106,9 @@ def celcius_to_fh(c):
     f=(c*9/5)+32
     return f
 print(celcius_to_fh(22),"fahrenheit")
+
+#Bill Calculator
+def bill_calculator(quantity,amounnt):
+    total= quantity*amounnt
+    return total
+print(bill_calculator(4,250),"Is your total bill ")

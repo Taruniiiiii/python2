@@ -99,3 +99,10 @@ def maxEleInList(li):
     return max(li)
 print(maxEleInList(li),"is max in list")
 """
+#sep28
+#Temperature Converter
+#Convert Celsius to Fahrenheit.
+def celcius_to_fh(c):
+    f=(c*9/5)+32
+    return f
+print(celcius_to_fh(22),"fahrenheit")

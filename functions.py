@@ -121,3 +121,10 @@ def voting_eligibility(age):
         return "Not eligible to vote"
 print(voting_eligibility(17))
 print(voting_eligibility(20))
+
+#Taxi Fare Calculator
+def taxi_Calculator(distance_in_km):
+    fare=distance_in_km*10
+    return fare
+print(taxi_Calculator(15),"is your taxi fare")
+print(taxi_Calculator(1),"is your taxi fare")

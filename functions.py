@@ -112,3 +112,12 @@ def bill_calculator(quantity,amounnt):
     total= quantity*amounnt
     return total
 print(bill_calculator(4,250),"Is your total bill ")
+
+#Voting Eligibility
+def voting_eligibility(age):
+    if age>=18:
+        return "Eligible to vote"
+    else:
+        return "Not eligible to vote"
+print(voting_eligibility(17))
+print(voting_eligibility(20))

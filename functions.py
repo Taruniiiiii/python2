@@ -138,6 +138,6 @@ def student_grade(marks):
     elif marks >= 50:
         return "C"
     else:
-        return "D"
+        return "FAIL"
 print(student_grade(33))
 print(student_grade(90))

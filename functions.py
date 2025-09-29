@@ -128,3 +128,16 @@ def taxi_Calculator(distance_in_km):
     return fare
 print(taxi_Calculator(15),"is your taxi fare")
 print(taxi_Calculator(5),"is your taxi fare")
+
+#Student Grading System
+def student_grade(marks):
+    if marks >= 90:
+        return "A"
+    elif marks >= 75:
+        return "B"
+    elif marks >= 50:
+        return "C"
+    else:
+        return "D"
+print(student_grade(33))
+print(student_grade(90))

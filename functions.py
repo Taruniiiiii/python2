@@ -152,7 +152,7 @@ print(discount_finder(2000))
 
 #Restaurant Tip Calculator
 def tip_Calculator(bill,tip):
-    tip = (bill * tip) / 100
+    tip = (bill * tip) / 100#tip is taken in percentage
     final = bill + tip
     return final
 print(tip_Calculator(1500,70),"is ur final bill")

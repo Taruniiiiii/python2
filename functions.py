@@ -141,3 +141,12 @@ def student_grade(marks):
         return "FAIL"
 print(student_grade(33))
 print(student_grade(90))
+
+#Discount Finder
+def discount_finder(price):
+    if price>1000:
+        discount=price*0.01
+        final_bill=price-discount
+        return final_bill
+print(discount_finder(2000))
+

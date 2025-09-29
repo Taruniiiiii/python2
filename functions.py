@@ -156,3 +156,13 @@ def tip_Calculator(bill,tip):
     final = bill + tip
     return final
 print(tip_Calculator(1500,70),"is ur final bill")
+
+#Movie Ticket Price
+def ticket_price(cust_age):
+    if cust_age<12:
+        return ticket_price==100
+    elif cust_age<=60:
+        return ticket_price==200
+    else:
+        return ticket_price==150
+print(ticket_price(10))

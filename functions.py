@@ -208,6 +208,7 @@ print(check_num(29))
 print(check_num(0))
 print(check_num(-1))
 
+#Convert Hours to Minutes and Seconds
 def converter(hours):
     minutes = hours*60
     seconds = hours*3600

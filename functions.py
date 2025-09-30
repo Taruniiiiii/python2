@@ -185,3 +185,25 @@ def avg_marks(sub1,sub2,sub3):
     avg=total/3
     return avg
 print(avg_marks(22,11,33))
+
+#Find the Minimum of Three Numbers
+def min_of_three(a,b,c):
+    if a<b and a<c:
+        return a
+    elif b<a and b<c:
+        return b
+    else:
+        return c
+print(min_of_three(11,21,5))
+
+#Check Positive, Negative, or Zero
+def check_num(num):
+    if num>0:
+        return "positive"
+    elif num<0:
+        return "negative"
+    else:
+        return "zero"
+print(check_num(29))
+print(check_num(0))
+print(check_num(-1))

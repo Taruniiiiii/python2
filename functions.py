@@ -214,3 +214,12 @@ def converter(hours):
     seconds = hours*3600
     return minutes, seconds
 print(converter(20))
+
+#fact of num
+def fact(n):
+    fact=1
+    for i in range(1,n+1):
+        fact=fact*i
+    return fact
+print(fact(5))
+print(fact(7))

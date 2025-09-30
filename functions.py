@@ -178,3 +178,10 @@ def max(a,b):
     else:
         return b
 print(max(11,21))
+
+#Calculate Average Marks of a Student
+def avg_marks(sub1,sub2,sub3):
+    total=sub1+sub2+sub3
+    avg=total/3
+    return avg
+print(avg_marks(22,11,33))

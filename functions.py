@@ -170,3 +170,11 @@ def ticket_price(cust_age):
 print(ticket_price(10))
 print(ticket_price(50))
 print(ticket_price(70))
+
+#Maximum of Two Numbers
+def max(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+print(max(11,21))

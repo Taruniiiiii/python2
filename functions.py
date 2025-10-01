@@ -101,7 +101,7 @@ print(maxEleInList(li),"is max in list")
 
 #sep28
 #Temperature Converter
-#Convert Celsius to Fahrenheit."""
+#Convert Celsius to Fahrenheit.
 def celcius_to_fh(c):
     f=(c*9/5)+32
     return f
@@ -222,4 +222,4 @@ def fact(n):
         fact=fact*i
     return fact
 print(fact(5))
-print(fact(7))
+print(fact(7))"""

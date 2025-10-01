@@ -211,7 +211,7 @@ print(check_num(-1))
 #Convert Hours to Minutes and Seconds
 def converter(hours):
     minutes = hours*60
-    seconds = hours*3600
+    seconds = hours*3600"""
     return minutes, seconds
 print(converter(20))
 
@@ -222,4 +222,4 @@ def fact(n):
         fact=fact*i
     return fact
 print(fact(5))
-print(fact(7))"""
+print(fact(7))

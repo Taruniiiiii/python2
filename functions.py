@@ -213,9 +213,9 @@ def converter(hours):
     minutes = hours*60
     seconds = hours*3600
     return minutes, seconds
-print(converter(20))"""
+print(converter(20))
 
-#fact of num
+#fact of num"""
 def fact(n):
     fact=1
     for i in range(1,n+1):

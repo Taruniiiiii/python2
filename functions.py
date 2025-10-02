@@ -200,7 +200,7 @@ print(min_of_three(11,21,5))
 def check_num(num):
     if num>0:
         return "positive"
-    elif num<0:
+    elif num<0:"""
         return "negative"
     else:
         return "zero"
@@ -215,7 +215,7 @@ def converter(hours):
     return minutes, seconds
 print(converter(20))
 
-#fact of num"""
+#fact of num
 def fact(n):
     fact=1
     for i in range(1,n+1):

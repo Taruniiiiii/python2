@@ -3,12 +3,12 @@
 
 def function_name(parameters):
     #function body
-    """
+    
 #ex.1
 def function_name():
     print("I'm taruniii")
 function_name()#calling function
-"""
+
 #ex.2
 def evenOdd(x):
     if (x%2==0):
@@ -200,7 +200,7 @@ print(min_of_three(11,21,5))
 def check_num(num):
     if num>0:
         return "positive"
-    elif num<0:"""
+    elif num<0:
         return "negative"
     else:
         return "zero"
@@ -223,12 +223,12 @@ def fact(n):
     return fact
 print(fact(5))
 print(fact(7))
-
-#Sum of Digits of a Number
-def sum_of_digits(n):
+"""
+def sumdigit(n):
     sum=0
     while n>0:
         digit=n%10
         sum=sum+digit
-        n=n//10
+        n=n//10      
     return sum
+print(sumdigit(22789))

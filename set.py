@@ -43,4 +43,4 @@ fullset = set1.union(set2,set3,set4)
 print(fullset)
 #or
 fullset=set1|set2|set3|set4
-print(fullset)
+print(fullset) """

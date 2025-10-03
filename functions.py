@@ -223,9 +223,9 @@ def fact(n):
     return fact
 print(fact(5))
 print(fact(7))
-"""
+
 def sumdigit(n):
-    sum=0
+    sum=0"""
     while n>0:
         digit=n%10
         sum=sum+digit

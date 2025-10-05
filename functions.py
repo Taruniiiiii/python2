@@ -221,9 +221,9 @@ def fact(n):
     for i in range(1,n+1):
         fact=fact*i
     return fact
-print(fact(5))
+print(fact(5))"""
 print(fact(7))
-"""
+
 def sumdigit(n):
     sum=0
     while n>0:

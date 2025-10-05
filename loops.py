@@ -409,4 +409,14 @@ def printNos(self,n,i=1):
     if i<=n:
         print(i,end=" ")
         self.printNos(n,i+1)#n=end,i+1=increment
+#leet
+num = int(input())
+steps = 0
+while num > 0:
+    if num % 2 == 0:
+        num //= 2
+    else:
+        num -= 1
+    steps += 1
+print(steps)
 

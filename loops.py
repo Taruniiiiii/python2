@@ -404,7 +404,6 @@ def singleNumber(self, nums: List[int]) -> int:
         for i in nums:
             if nums.count(i) == 1:
                 return i
-"""
 def printNos(self,n,i=1):
     if i<=n:
         print(i,end=" ")
@@ -416,7 +415,7 @@ while num > 0:
     if num % 2 == 0:
         num //= 2
     else:
-        num -= 1
+        num -= 1"""
     steps += 1
 print(steps)
 

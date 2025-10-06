@@ -6,3 +6,8 @@ for fruits in fav_fruits:
 #Find the length of a tuple (4, 5, 6, 7, 8, 9).
 num=(4,5,6,7,8,9)
 print(len(num))
+#Check whether an element (like 7) exists in a tuple.
+if 17 in num:
+    print("exists in tuple")
+else:
+    print("does not exist in tuple")

@@ -29,3 +29,7 @@ set1.add(8)
 set1.discard(7)
 set1.remove(3)
 print(set1)
+
+#Find the maximum and minimum values from a tuple (5, 8, 1, 3, 7).
+tup=(5,8,1,3,7)
+print(max(tup),"is the max in tup")

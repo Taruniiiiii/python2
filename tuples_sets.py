@@ -22,3 +22,10 @@ li[1]=99
 li[2]=30
 tup=tuple(li)
 print(tup)
+
+#Add and remove elements in a set:
+set1={2,3,4,5,6,7}
+set1.add(8)
+set1.discard(7)
+set1.remove(3)
+print(set1)

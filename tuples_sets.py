@@ -38,4 +38,5 @@ print(max(tup),"is the max in tup")
 nums=(10,20,30,40,50)
 print(nums[:3])#first 3 elements
 print(nums[3:])#last 2 elements
-print(nums[-1:0:-1])#reverse
+print(nums[-1:0:-1])#reverse except first element
+print(nums[::-1])#reverse

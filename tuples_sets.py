@@ -1,8 +1,8 @@
 #Create a tuple containing your 5 favorite fruits and
 #  print them one by one using a loop
-"""fav_fruits=("apple","pineapple","kiwi")
+fav_fruits=("apple","pineapple","kiwi")
 for fruits in fav_fruits:
-    print(fruits)"""
+    print(fruits)
 
 #Find the length of a tuple (4, 5, 6, 7, 8, 9).
 num=(4,5,6,7,8,9)
@@ -33,3 +33,9 @@ print(set1)
 #Find the maximum and minimum values from a tuple (5, 8, 1, 3, 7).
 tup=(5,8,1,3,7)
 print(max(tup),"is the max in tup")
+
+#slicing
+nums=(10,20,30,40,50)
+print(nums[:3])#first 3 elements
+print(nums[3:])#last 2 elements
+print(nums[-1:0:-1])#reverse

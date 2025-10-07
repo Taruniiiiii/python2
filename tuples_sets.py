@@ -40,3 +40,14 @@ print(nums[:3])#first 3 elements
 print(nums[3:])#last 2 elements
 print(nums[-1:0:-1])#reverse except first element
 print(nums[::-1])#reverse
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+#union
+print(A | B)
+#intersection
+print(A & B)
+#difference
+print(A - B)
+print(B - A)
+

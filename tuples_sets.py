@@ -46,8 +46,10 @@ B = {3, 4, 5, 6}
 #union
 print(A | B)
 #intersection
-print(A & B)
+print(A & B)#common elements in both sets
 #difference
 print(A - B)
 print(B - A)
+#symmetric difference
+print(A ^ B)#not common in both sets
 

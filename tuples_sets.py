@@ -43,6 +43,7 @@ print(nums[::-1])#reverse
 
 A = {1, 2, 3, 4}
 B = {3, 4, 5, 6}
+C = {3, 2, 6, 4}
 #union
 print(A | B)
 #intersection
@@ -53,3 +54,5 @@ print(B - A)
 #symmetric difference
 print(A ^ B)#not common in both sets
 
+#Write a program to find common elements in 3 sets.
+print(A&B&C,"common in 3")

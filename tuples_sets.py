@@ -56,3 +56,12 @@ print(A ^ B)#not common in both sets
 
 #Write a program to find common elements in 3 sets.
 print(A&B&C,"common in 3")
+
+#Given a list of tuples (name, age), find the average age using tuple unpacking.
+people=[("taruni",18),("manu",20),("vinya",21),("ashritha",19)]
+print(people)
+tot_age=0
+for name,age in people:
+    tot_age=tot_age+age
+avg_age=tot_age/len(people)
+print(avg_age,"avg_age")

@@ -65,3 +65,18 @@ for name,age in people:
     tot_age=tot_age+age
 avg_age=tot_age/len(people)
 print(avg_age,"avg_age")
+
+#Find the highest-priced product Find the average price
+products = (("Laptop", 60000), ("Phone", 30000), ("Tablet", 25000))
+tot_price=0
+max_price =0
+max_product = ""
+for name,price in products:
+    tot_price+=price
+    if price>max_price:
+        max_price=price
+        max_product=name
+average_price=tot_price/len(products)
+print(max_product,"max_products")
+print(max_price,"max_price")
+print(average_price,"average_pricee")

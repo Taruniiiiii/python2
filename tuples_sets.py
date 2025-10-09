@@ -95,3 +95,7 @@ for word in words:
     if len(word)>3:
         result.add(word)
 print(result)
+#same problem in 1 line
+
+result={word for word in words if len(word)>3}
+print(result)

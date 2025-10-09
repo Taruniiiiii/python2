@@ -77,6 +77,12 @@ for name,price in products:
         max_price=price
         max_product=name
 average_price=tot_price/len(products)
-print(max_product,"max_products")"""
+print(max_product,"max_products")
 print(max_price,"max_price")
 print(average_price,"average_pricee")
+
+#You have a list of tuples representing coordinates:
+coords = [(1, 2), (3, 4), (5, 6)]
+for a,b in coords:
+    print(a,end=" ")
+    print(b)

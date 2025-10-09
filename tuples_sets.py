@@ -102,3 +102,10 @@ print(result)
 #reverse a tuple without using the reversed()
 ex=(1, 2, 3, 4)
 print(ex[::-1])
+
+#Find Second Largest Number
+ex2=(5, 7, 2, 9, 1)
+lis=list(ex2)
+lis.sort()
+print(lis)
+print(lis[-2],"is the second highest num in ex2")

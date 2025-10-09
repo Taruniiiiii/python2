@@ -30,6 +30,7 @@ set1.discard(7)
 set1.remove(3)
 print(set1)
 
+
 #Find the maximum and minimum values from a tuple (5, 8, 1, 3, 7).
 tup=(5,8,1,3,7)
 print(max(tup),"is the max in tup")
@@ -86,3 +87,11 @@ coords = [(1, 2), (3, 4), (5, 6)]
 for a,b in coords:
     print(a,end=" ")
     print(b)
+
+#create a set that only includes the words whose length is more than 3 letters.
+words = ["apple", "is", "red", "and", "sweet"]
+result=set()
+for word in words:
+    if len(word)>3:
+        result.add(word)
+print(result)

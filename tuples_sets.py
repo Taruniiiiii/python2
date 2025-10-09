@@ -96,6 +96,9 @@ for word in words:
         result.add(word)
 print(result)
 #same problem in 1 line
-
 result={word for word in words if len(word)>3}
 print(result)
+
+#reverse a tuple without using the reversed()
+ex=(1, 2, 3, 4)
+print(ex[::-1])

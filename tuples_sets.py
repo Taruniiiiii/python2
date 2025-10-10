@@ -109,3 +109,10 @@ lis=list(ex2)
 lis.sort()
 print(lis)
 print(lis[-2],"is the second highest num in ex2")
+
+#Multiply All Numbers in a Tuple
+ex3=(1, 2, 3, 4)
+num=0
+for i in ex3:
+    num=num+i
+    print(num)

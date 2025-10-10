@@ -116,3 +116,14 @@ num=0
 for i in ex3:
     num=num+i
     print(num)
+
+#Duplicate Email Detector
+mails = ["taruni@gmail.com", "ash@mail.com", "taruni@gmail.com", "soh@mail.com"]
+unique_emails=set()
+duplicate_emails=set()
+for i in mails:
+    if i in unique_emails:
+        duplicate_emails.add(i)
+    else:
+        unique_emails.add(i)
+print("duplicate emails",duplicate_emails)

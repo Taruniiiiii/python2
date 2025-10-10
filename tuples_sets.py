@@ -1,4 +1,4 @@
-#Create a tuple containing your 5 favorite fruits and
+""""#Create a tuple containing your 5 favorite fruits and
 #  print them one by one using a loop
 fav_fruits=("apple","pineapple","kiwi")
 for fruits in fav_fruits:
@@ -108,7 +108,7 @@ ex2=(5, 7, 2, 9, 1)
 lis=list(ex2)
 lis.sort()
 print(lis)
-print(lis[-2],"is the second highest num in ex2")
+print(lis[-2],"is the second highest num in ex2")""""
 
 #Multiply All Numbers in a Tuple
 ex3=(1, 2, 3, 4)

@@ -143,7 +143,13 @@ print("unique_cities:",unique_cities)
 #Employee Skill Matcher
 emp1 = {"Python", "SQL", "Excel"}
 emp2 = {"Python", "Java", "Excel"}
-print(emp1 & emp2,":common skills in both emps")
-print(emp1-emp2,":is unique from emp2")
-print(emp1 ^ emp2,":are not common")
-        
+print(emp1 & emp2,"common skills in both emps")
+print(emp1-emp2,"is unique from emp2")
+print(emp1 ^ emp2,"are not common")
+
+#Attendance Comparison
+day1 = {"Taruni", "Mahesh", "Ravi"}
+day2 = {"Mahesh", "Ravi", "Asha"}
+print(day1&day2,"attended both days")
+print(day1-day2,"attended only day 1")
+print(day2-day1,"attended only day 2")

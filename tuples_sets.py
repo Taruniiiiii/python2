@@ -153,3 +153,9 @@ day2 = {"Mahesh", "Ravi", "Asha"}
 print(day1&day2,"attended both days")
 print(day1-day2,"attended only day 1")
 print(day2-day1,"attended only day 2")
+
+#Tuple Sorting by Price
+items = [("Apple", 120), ("Banana", 40), ("Cherry", 200)]
+items.sort(key=lambda x: x[1])#lambda=temporaruy function..here used once for sorting
+for fruit,price in items:  #x each ele in the tuple here in the list
+    print(fruit,":",price)#key= specific rule or logic

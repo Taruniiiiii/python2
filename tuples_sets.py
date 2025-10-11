@@ -127,3 +127,16 @@ for i in mails:
     else:
         unique_emails.add(i)
 print("duplicate emails",duplicate_emails)
+
+#unique city finders
+customers = [("Mahesh", "Hyderabad"), ("Taruni", "Chennai"), ("Kiran", "Hyderabad")]
+unique_cities=set()
+notunique_cities=set()
+for i,j in customers:
+    if j in unique_cities:
+        notunique_cities.add(j)
+    else:
+        unique_cities.add(j)
+unique_cities = unique_cities - notunique_cities
+print("unique_cities:",unique_cities)
+        

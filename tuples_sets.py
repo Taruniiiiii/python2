@@ -101,7 +101,7 @@ print(result)
 
 #reverse a tuple without using the reversed()
 ex=(1, 2, 3, 4)
-print(ex[::-1])"""
+print(ex[::-1])
 
 #Find Second Largest Number
 ex2=(5, 7, 2, 9, 1)
@@ -152,7 +152,7 @@ day1 = {"Taruni", "Mahesh", "Ravi"}
 day2 = {"Mahesh", "Ravi", "Asha"}
 print(day1&day2,"attended both days")
 print(day1-day2,"attended only day 1")
-print(day2-day1,"attended only day 2")
+print(day2-day1,"attended only day 2")"""
 
 #Tuple Sorting by Price
 items = [("Apple", 120), ("Banana", 40), ("Cherry", 200)]

@@ -139,4 +139,11 @@ for i,j in customers:
         unique_cities.add(j)
 unique_cities = unique_cities - notunique_cities
 print("unique_cities:",unique_cities)
+
+#Employee Skill Matcher
+emp1 = {"Python", "SQL", "Excel"}
+emp2 = {"Python", "Java", "Excel"}
+print(emp1 & emp2,":common skills in both emps")
+print(emp1-emp2,":is unique from emp2")
+print(emp1 ^ emp2,":are not common")
         

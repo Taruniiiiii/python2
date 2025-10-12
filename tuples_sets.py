@@ -159,3 +159,16 @@ items = [("Apple", 120), ("Banana", 40), ("Cherry", 200)]
 items.sort(key=lambda x: x[1])#lambda=temporaruy function..here used once for sorting
 for fruit,price in items:  #x each ele in the tuple here in the list
     print(fruit,":",price)#key= specific rule or logic
+
+#Word Uniqueness Checker
+text = "Python is fun and learning Python is interesting"
+word_count={}
+print(text.split())
+for word in text.split():
+    if word in word_count:
+        word_count[word]+=1
+    else:
+        word_count[word]=1
+
+unique_words = {word for word, count in word_count.items() if count == 1}
+print("unique_words:",unique_words)

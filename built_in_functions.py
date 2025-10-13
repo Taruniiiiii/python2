@@ -15,3 +15,11 @@ print(tup)
 ex=[9, 3, 5, 2]
 tup1=sorted(ex)
 print(tup1)
+
+#zip()
+#pairs up elements from two or more sequences
+names=["Taruni","Mahesh","ashritha"]
+marks=[95,88,92]
+
+combined=zip(names, marks)
+print(list(combined))

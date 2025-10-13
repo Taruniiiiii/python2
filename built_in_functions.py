@@ -45,4 +45,9 @@ print(list(result))
 #ex2
 words = ["taruni", "ishu", "sahasra"]
 upper_case=list(map(str.upper,words))
-print(upper_case)
+print(upper_case)#gives upper case letters
+
+#filter()
+numbers=[1,2,3,4,5,6]
+even_nums=filter(lambda x: x%2==0,numbers)#code to print only even numbers using lambda
+print(list(even_nums))

@@ -40,5 +40,9 @@ def double(x):
 
 numbers=[1, 2, 3, 4]
 result=map(double,numbers)#maps double and number
-
 print(list(result))
+
+#ex2
+words = ["taruni", "ishu", "sahasra"]
+upper_case=list(map(str.upper,words))
+print(upper_case)

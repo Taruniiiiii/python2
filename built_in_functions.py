@@ -33,3 +33,12 @@ print(result)
 num2=[1, 2, 3, 0]
 print(any(num2))#there are numbers other than 0
 #if there is all 0's hen it gives false
+
+#map()
+def double(x):
+    return x*2
+
+numbers=[1, 2, 3, 4]
+result=map(double,numbers)#maps double and number
+
+print(list(result))

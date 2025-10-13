@@ -26,5 +26,10 @@ print(list(combined))
 
 #all
 num=[1, 2, 3, 4]
-result=all(n<10 for n in num)
-print(result)#false coz of 0
+result=all(n<10 for n in num)#all ele are greater than 10 so true
+print(result)
+
+#any()
+num2=[1, 2, 3, 0]
+print(any(num2))#there are numbers other than 0
+#if there is all 0's hen it gives false

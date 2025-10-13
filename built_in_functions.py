@@ -23,3 +23,8 @@ marks=[95,88,92]
 
 combined=zip(names, marks)
 print(list(combined))
+
+#all
+num=[1, 2, 3, 4]
+result=all(n<10 for n in num)
+print(result)#false coz of 0

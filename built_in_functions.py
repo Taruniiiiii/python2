@@ -53,3 +53,9 @@ even_nums=filter(lambda x: x%2==0,numbers)#code to print only even numbers using
 print(list(even_nums))
 odd_nums=filter(lambda x: x%2!=0,numbers)
 print(list(odd_nums))
+
+#enumerate()
+fruits=["apple","banana","kiwi"]
+
+for index,fruit in enumerate(fruits):
+    print(index,fruit)#prints indexes with fruits

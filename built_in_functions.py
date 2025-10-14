@@ -29,7 +29,7 @@ print(list(combined))
 
 #all
 num=[1, 2, 3, 4]
-result=all(n<10 for n in num)#all ele are greater than 10 so true
+result=all(n<10 for n in num)#all ele are less than 10 so true
 print(result)
 
 
@@ -64,7 +64,7 @@ print(list(odd_nums))
 #enumerate()
 fruits=["apple","banana","kiwi"]
 
-for index,fruit in enumerate(fruits):
+for index,fruit in enumerate(fruits,start=1):#start=1 gives nums from1,else from 0
     print(index,fruit)#prints indexes with fruits
 
 #map()Find Length of Each Word

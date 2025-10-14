@@ -93,3 +93,22 @@ print(new1)#output:{'Alice': 85, 'Bob': 92, 'Charlie': 78}
 sub=["Math", "Science", "History", "English"]
 for index,subjects in enumerate(sub):
     print(index,subjects)
+
+#sorted() — Sort Tuples by Second Value
+marks = [("Alice", 50), ("Bob", 75), ("Charlie", 65)]
+s=list(sorted(marks,key=lambda x:x[1]))
+print(s)
+
+#all() and any() — Check Conditions
+prob1=[10, 20, 30, 40, 50]
+r1=all(p>5 for p in prob1)
+print(r1)
+r2=any(p%3==0 for p in prob1)
+print(r2)
+
+#Combination (map + filter + lambda)
+pro2=[2, 5, 8, 11, 14, 17]
+odd=list(filter(lambda x:x%2!=0,pro2))
+print(odd,":are the odd nums in list")
+sq=map(lambda x:x**2,odd)
+print(list(sq),":are the squares od odd  nums")

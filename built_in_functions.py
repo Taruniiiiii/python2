@@ -76,3 +76,20 @@ print(list(res))
 exa1=[12, 15, 21, 24, 30, 37, 40]
 res1=list(filter(lambda x:x%3==0 and x%5==0,exa1))
 print(res1)
+
+#reduce() — Product of All Numbers
+from functools import reduce
+prob=[2, 3, 4, 5]
+n=reduce(lambda x,y:x*y,prob)
+print(n)#prints product of all numbers
+
+#zip() — Combine Two Lists into a Dictionary
+names = ["Alice", "Bob", "Charlie"]
+scores = [85, 92, 78]
+new1=dict(zip(names,scores))
+print(new1)#output:{'Alice': 85, 'Bob': 92, 'Charlie': 78}
+
+#enumerate() — Print Index + Item
+sub=["Math", "Science", "History", "English"]
+for index,subjects in enumerate(sub):
+    print(index,subjects)

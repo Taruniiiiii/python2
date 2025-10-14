@@ -67,7 +67,12 @@ fruits=["apple","banana","kiwi"]
 for index,fruit in enumerate(fruits):
     print(index,fruit)#prints indexes with fruits
 
-#map()
+#map()Find Length of Each Word
 word=["hello", "world","python"]
 res=map(len,word)
 print(list(res))
+
+#filter() — Numbers Divisible by 3 and 5
+exa1=[12, 15, 21, 24, 30, 37, 40]
+res1=list(filter(lambda x:x%3==0 and x%5==0,exa1))
+print(res1)

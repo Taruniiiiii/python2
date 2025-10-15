@@ -19,3 +19,6 @@ education="MRU"
 department="ds"
 year=3
 print(f"My name is {name} and I am {age} years old. Iam a {year}rd year student at{education}")
+#way2
+print("My name is {} and I am {} years old.".format(name,age))
+

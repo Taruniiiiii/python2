@@ -11,7 +11,7 @@
 | `.count()`                      | Count occurrences       | `"banana".count("a")`          |
 | `.find()`                       | Find index of substring | `"python".find("t")`           |
 | `.startswith()` / `.endswith()` | Check beginning/end     | `"hello".startswith("he")`     |
-"""
+
 #f string
 name="Taruni"
 age=19
@@ -52,3 +52,9 @@ for i in word:
         print("invalid char")
 print(vowels_count,"vowels count")
 print(consonant_count,"consonant count")
+"""
+#reverse sentence 
+sentence="hi im taruni"
+word=sentence.split()#breaks the sentence into words
+reversed_word=[w[::-1] for w in word]
+print(" ".join(reversed_word))

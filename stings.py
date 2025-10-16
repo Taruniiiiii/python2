@@ -29,3 +29,11 @@ if pal==lap:
     print("True")
 else:
     print("False")
+
+#removing dups from string
+dup=str(input())
+no_dup=""
+for i in dup:
+    if i not in no_dup:
+        no_dup+=i
+print(no_dup)

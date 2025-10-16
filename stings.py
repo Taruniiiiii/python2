@@ -22,3 +22,10 @@ print(f"My name is {name} and I am {age} years old. Iam a {year}rd year student 
 #way2
 print("My name is {} and I am {} years old.".format(name,age))
 
+#palindrome
+pal=str(input())
+lap=pal[::-1]
+if pal==lap:
+    print("True")
+else:
+    print("False")

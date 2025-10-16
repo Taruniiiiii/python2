@@ -37,3 +37,18 @@ for i in dup:
     if i not in no_dup:
         no_dup+=i
 print(no_dup)
+
+#vowels and constraints
+vowels=["a","e","i","o","u","A","E","I","O","U"]
+word=str(input())
+vowels_count=0
+consonant_count=0
+for i in word:
+    if i in vowels:
+        vowels_count+=1
+    elif i.isalpha():#is alhabet if i use i is not in vowels it includes everything
+        consonant_count+=1
+    else:
+        print("invalid char")
+print(vowels_count,"vowels count")
+print(consonant_count,"consonant count")

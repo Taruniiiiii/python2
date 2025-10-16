@@ -109,7 +109,7 @@ lis=list(ex2)
 lis.sort()
 print(lis)
 print(lis[-2],"is the second highest num in ex2")
-
+"""
 #Multiply All Numbers in a Tuple
 ex3=(1, 2, 3, 4)
 num=0
@@ -152,13 +152,14 @@ day1 = {"Taruni", "Mahesh", "Ravi"}
 day2 = {"Mahesh", "Ravi", "Asha"}
 print(day1&day2,"attended both days")
 print(day1-day2,"attended only day 1")
-print(day2-day1,"attended only day 2")"""
+print(day2-day1,"attended only day 2")
 
 #Tuple Sorting by Price
 items = [("Apple", 120), ("Banana", 40), ("Cherry", 200)]
 items.sort(key=lambda x: x[1])#lambda=temporaruy function..here used once for sorting
 for fruit,price in items:  #x each ele in the tuple here in the list
     print(fruit,":",price)#key= specific rule or logic
+
 
 #Word Uniqueness Checker
 text = "Python is fun and learning Python is interesting"

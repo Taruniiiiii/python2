@@ -58,3 +58,12 @@ sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 reversed_word=[w[::-1] for w in word]
 print(" ".join(reversed_word))
+
+#Find the longest word in a sentence.
+sen="hi im taruni and"
+wor=sen.split()
+long=""
+for w in wor:
+    if len(w)>len(long):
+        long=w
+print(long,len(long))

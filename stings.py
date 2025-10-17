@@ -51,13 +51,13 @@ for i in word:
     else:
         print("invalid char")
 print(vowels_count,"vowels count")
-print(consonant_count,"consonant count")
+print(consonant_count,"consonant count")"""
 
 #reverse sentence 
 sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 reversed_word=[w[::-1] for w in word]
-print(" ".join(reversed_word))"""
+print(" ".join(reversed_word))
 
 #Find the longest word in a sentence.
 sen="hi im taruni and"

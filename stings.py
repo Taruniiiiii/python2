@@ -57,7 +57,7 @@ print(consonant_count,"consonant count")
 sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 reversed_word=[w[::-1] for w in word]
-print(" ".join(reversed_word))
+print(" ".join(reversed_word))"""
 
 #Find the longest word in a sentence.
 sen="hi im taruni and"
@@ -67,7 +67,7 @@ for w in wor:
     if len(w)>len(long):#compares word with another
         long=w #if true long is changed
 print(long,len(long))
-"""
+
 #Remove all punctuation marks from a sentence.
 sent="He said, 'I can't believe it!'; and then he ran away—but where did he go?!"
 li= [",", "@", "$", "%", "^", "&", "*", "(", ")", ".", ";", ":", "'", '"', "[", "]", "{", "}", "?", "-", "_", "!"]

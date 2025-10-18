@@ -66,7 +66,7 @@ long=""
 for w in wor:
     if len(w)>len(long):#compares word with another
         long=w #if true long is changed
-print(long,len(long))
+print(long,len(long))"""
 
 #Remove all punctuation marks from a sentence.
 sent="He said, 'I can't believe it!'; and then he ran away—but where did he go?!"
@@ -90,7 +90,7 @@ for ch in s:
         lower+=1
     elif ch.isdigit():
         digit+=1
-    else:"""
+    else:
         special+=1
 print(upper,"upper")
 print(lower,"lower")

@@ -90,12 +90,12 @@ for ch in s:
         lower+=1
     elif ch.isdigit():
         digit+=1
-    else:
+    else:"""
         special+=1
 print(upper,"upper")
 print(lower,"lower")
 print(digit,"digit")
-print(special,"special")"""
+print(special,"special")
 
 #Reverse the Order of Words (Keep Letters in Order)
 sentence="hi im taruni"

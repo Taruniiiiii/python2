@@ -52,7 +52,7 @@ for i in word:
         print("invalid char")
 print(vowels_count,"vowels count")
 print(consonant_count,"consonant count")
-
+"""
 #reverse sentence 
 sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
@@ -66,7 +66,7 @@ long=""
 for w in wor:
     if len(w)>len(long):#compares word with another
         long=w #if true long is changed
-print(long,len(long))"""
+print(long,len(long))
 
 #Remove all punctuation marks from a sentence.
 sent="He said, 'I can't believe it!'; and then he ran away—but where did he go?!"

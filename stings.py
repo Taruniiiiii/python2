@@ -76,7 +76,7 @@ for ch in sent:
     if ch not in li:
         clear+=ch
 print(clear)
-"""
+
 #Count Uppercase, Lowercase, Digits, and Special Characters
 s=str(input())
 upper=0
@@ -95,4 +95,10 @@ for ch in s:
 print(upper,"upper")
 print(lower,"lower")
 print(digit,"digit")
-print(special,"special")
+print(special,"special")"""
+
+#Reverse the Order of Words (Keep Letters in Order)
+sentence="hi im taruni"
+word=sentence.split()#breaks the sentence into words
+rev_word=word[::-1]
+print(rev_word)

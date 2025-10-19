@@ -102,11 +102,11 @@ sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 rev_word=word[::-1]
 print(rev_word)
-
+"""
 #Word Frequency Counter
 p="hi im taruni im learning python python is fun"
 words=p.split()
-dicti={}"""
+dicti={}
 for word in words:
     if word in dicti:
         dicti[word]+=1

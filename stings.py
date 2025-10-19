@@ -113,6 +113,7 @@ for word in words:
     else:
         dicti[word]=1
 print(dicti)
+#otp:{'hi': 1, 'im': 2, 'taruni': 1, 'learning': 1, 'python': 2, 'is': 1, 'fun': 1}
 
 
 

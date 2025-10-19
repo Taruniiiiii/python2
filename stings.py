@@ -52,7 +52,7 @@ for i in word:
         print("invalid char")
 print(vowels_count,"vowels count")
 print(consonant_count,"consonant count")
-"""
+
 #reverse sentence 
 sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
@@ -102,3 +102,18 @@ sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 rev_word=word[::-1]
 print(rev_word)
+"""
+#Word Frequency Counter
+p="hi im taruni im learning python python is fun"
+words=p.split()
+dicti={}
+for word in words:
+    if word in dicti:
+        dicti[word]+=1
+    else:
+        dicti[word]=1
+print(dicti)
+
+
+
+

@@ -93,7 +93,7 @@ for ch in s:
     else:
         special+=1
 print(upper,"upper")
-print(lower,"lower")
+print(lower,"lower")"""
 print(digit,"digit")
 print(special,"special")
 
@@ -117,7 +117,7 @@ print(dicti)
 
 
 a = input()
-b = input()"""
+b = input()
 separator = input()[0]
 print(a,b)
 (a,end="")

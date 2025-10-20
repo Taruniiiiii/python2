@@ -41,7 +41,7 @@ print(no_dup)
 #vowels and constraints
 vowels=["a","e","i","o","u","A","E","I","O","U"]
 word=str(input())
-vowels_count=0
+vowels_count=0"""
 consonant_count=0
 for i in word:
     if i in vowels:
@@ -93,7 +93,7 @@ for ch in s:
     else:
         special+=1
 print(upper,"upper")
-print(lower,"lower")"""
+print(lower,"lower")
 print(digit,"digit")
 print(special,"special")
 

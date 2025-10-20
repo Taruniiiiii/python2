@@ -102,7 +102,7 @@ sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 rev_word=word[::-1]
 print(rev_word)
-"""
+
 #Word Frequency Counter
 p="hi im taruni im learning python python is fun"
 words=p.split()
@@ -116,5 +116,10 @@ print(dicti)
 #otp:{'hi': 1, 'im': 2, 'taruni': 1, 'learning': 1, 'python': 2, 'is': 1, 'fun': 1}
 
 
+a = input()
+b = input()"""
+separator = input()[0]
+print(a,b)
+(a,end="")
 
 

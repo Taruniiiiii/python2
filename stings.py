@@ -28,7 +28,7 @@ lap=pal[::-1]
 if pal==lap:
     print("True")
 else:
-    print("False")
+    print("False")"""
 
 #removing dups from string
 dup=str(input())
@@ -57,7 +57,7 @@ print(consonant_count,"consonant count")
 sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 reversed_word=[w[::-1] for w in word]
-print(" ".join(reversed_word))"""
+print(" ".join(reversed_word))
 
 #Find the longest word in a sentence.
 sen="hi im taruni and"

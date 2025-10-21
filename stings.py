@@ -43,7 +43,7 @@ vowels=["a","e","i","o","u","A","E","I","O","U"]
 word=str(input())
 vowels_count=0
 consonant_count=0
-for i in word:"""
+for i in word:
     if i in vowels:
         vowels_count+=1
     elif i.isalpha():#is alhabet if i use i is not in vowels it includes everything
@@ -57,7 +57,7 @@ print(consonant_count,"consonant count")
 sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 reversed_word=[w[::-1] for w in word]
-print(" ".join(reversed_word))
+print(" ".join(reversed_word))"""
 
 #Find the longest word in a sentence.
 sen="hi im taruni and"

@@ -28,7 +28,7 @@ lap=pal[::-1]
 if pal==lap:
     print("True")
 else:
-    print("False")"""
+    print("False")"
 
 #removing dups from string
 dup=str(input())

@@ -407,7 +407,7 @@ def singleNumber(self, nums: List[int]) -> int:
 def printNos(self,n,i=1):
     if i<=n:
         print(i,end=" ")
-        self.printNos(n,i+1)#n=end,i+1=increment"""
+        self.printNos(n,i+1)#n=end,i+1=increment
 #leet
 num = int(input())
 steps = 0
@@ -417,7 +417,7 @@ while num > 0:
     else:
         num -= 1
     steps += 1
-print(steps)
+print(steps)"""
 
 # Number of Good Pairs
 count=0

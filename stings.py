@@ -53,7 +53,7 @@ for i in word:
 print(vowels_count,"vowels count")
 print(consonant_count,"consonant count")
 
-#reverse sentence 
+#reverse sentence
 sentence="hi im taruni"
 word=sentence.split()#breaks the sentence into words
 reversed_word=[w[::-1] for w in word]
@@ -83,6 +83,7 @@ upper=0
 lower=0
 digit=0
 special=0
+
 for ch in s:
     if ch.isupper():
         upper+=1
@@ -116,10 +117,5 @@ print(dicti)
 #otp:{'hi': 1, 'im': 2, 'taruni': 1, 'learning': 1, 'python': 2, 'is': 1, 'fun': 1}
 
 
-a = input()
-b = input()
-separator = input()[0]
-print(a,b)
-(a,end="")
 
 

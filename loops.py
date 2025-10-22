@@ -426,3 +426,9 @@ count=0
                 if nums[i]==nums[j]:
                     count+=1
         return count
+#Find Numbers with Even Number of Digits
+count=0
+    for i in nums:
+        if len(str(i))%2==0:
+            count+=1
+    return count

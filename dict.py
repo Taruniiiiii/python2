@@ -35,8 +35,12 @@ print(d1)
 # Using pop() to remove an item and return the value
 value=d1.pop(1)
 print(value)
-"""
+
 # Using popitem to removes and returns
 # the last key-value pair
 key,val=d.popitem()
 print(f"Key:{key},Value:{val}")
+
+# Clear all items from the dictionary
+d2.clear()
+print(d2)

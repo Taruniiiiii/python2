@@ -395,10 +395,9 @@ for i in range(1, n+1):  # rows
         print(num, end=" ")
         num += 1
     print()  # new line after each row
-
+"""
 #leetcode
-    def getConcatenation(self, nums: List[int]) -> List[int]:
-        return nums + nums
+
 #2
 def singleNumber(self, nums: List[int]) -> int:
         for i in nums:
@@ -417,18 +416,18 @@ while num > 0:
     else:
         num -= 1
     steps += 1
-print(steps)"""
+print(steps)
 
 # Number of Good Pairs
 count=0
-        for i in range(len(nums)):#checks from index 0
-            for j in range(i+1,len(nums)):#checks from index+1
-                if nums[i]==nums[j]:
-                    count+=1
-        return count
+for i in range(len(nums)):#checks from index 0
+    for j in range(i+1,len(nums)):#checks from index+1
+        if nums[i]==nums[j]:
+            count+=1
+return count
 #Find Numbers with Even Number of Digits
 count=0
-    for i in nums:
-        if len(str(i))%2==0:
-            count+=1
-    return count
+for i in nums:
+    if len(str(i))%2==0:
+        count+=1
+return count

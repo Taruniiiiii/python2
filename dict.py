@@ -22,7 +22,7 @@ print(d1)
 # Updating an existing value
 d1[1] = "man"
 print(d1)
-"""
+
 del: Removes an item by key.
 pop(): Removes an item by key and returns its value.
 clear(): Empties the dictionary.
@@ -35,7 +35,7 @@ print(d1)
 # Using pop() to remove an item and return the value
 value=d1.pop(1)
 print(value)
-
+"""
 # Using popitem to removes and returns
 # the last key-value pair
 key,val=d.popitem()

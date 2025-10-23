@@ -15,7 +15,7 @@ print(d[(1,2)])
 
 # Access using get()
 print(d.get("name"))
-
+"""
 # Adding a new key-value pair in the end
 d1["age"] = 22
 print(d1)

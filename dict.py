@@ -57,3 +57,7 @@ for value in d.values():
 # Iterate over key-value pairs
 for key, value in d.items():#prints keys and values both
     print(f"{key}: {value}")
+
+#nested dictionary
+di= {1:'iam',2:'taruni',3:{'A':'datascience','B':'delta','C':'336'}}
+print(di)

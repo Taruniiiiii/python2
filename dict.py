@@ -61,3 +61,14 @@ for key, value in d.items():#prints keys and values both
 #nested dictionary
 di= {1:'iam',2:'taruni',3:{'A':'datascience','B':'delta','C':'336'}}
 print(di)
+
+names = ["john","ala","ilia","sudan","mercy"]
+marks = ["100","200","150","80","300"]
+def create_dict(arr):
+    dict = {}
+    for key,values in arr:
+        dict[key]=values
+    return dict
+
+result=create_dict(zip(names,marks))
+print(result)

@@ -70,5 +70,5 @@ def create_dict(arr):
         dict[key]=values
     return dict
 
-result=create_dict(zip(names,marks))
+result=create_dict(zip(names,marks))#combines names and values in arr
 print(result)

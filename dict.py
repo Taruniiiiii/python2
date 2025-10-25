@@ -72,3 +72,14 @@ def create_dict(arr):
 
 result=create_dict(zip(names,marks))#combines names and values in arr
 print(result)
+
+#1: Count Word Frequency
+word="I love python because python is easy"
+freq={}
+sentence=word.split()#spliting the sentence
+for word in sentence:
+    if word in freq:
+        freq[word]+=1 #if the aprticular word exists in freq word freq is increased by +1
+    else:
+        freq[word]=1 #else freq=1
+print(word,freq)#prints word and he no of times it is repeated

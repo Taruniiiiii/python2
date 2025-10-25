@@ -125,3 +125,10 @@ for key,value in ex1.items():
         dictii[key]=value
 print(dictii)
 #otp:{'b': 10, 'd': 8}
+
+#Swap Keys and Values
+ex3={'a': 1, 'b': 2, 'c': 3}
+dictiii={}
+for key,value in ex3.items():
+    dictiii[value]=key
+print(dictiii)

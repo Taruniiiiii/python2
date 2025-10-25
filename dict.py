@@ -87,7 +87,8 @@ print(word,freq)#prints word and he no of times it is repeated
 #2: Merge Two Dictionaries
 di1 = {'a':1, 'b':2}
 di2 = {'b':3, 'c':4}
-for key,value in d2:
-    if  di1[key] in di2:
+for key,value in di2.items():#items=key,value pairs
         di1[key]=value
 print(di1)
+#or
+#di1.update(di2)

@@ -132,3 +132,15 @@ dictiii={}
 for key,value in ex3.items():
     dictiii[value]=key
 print(dictiii)
+#otp: {1: 'a', 2: 'b', 3: 'c'}
+
+#Find the Key with Maximum Value
+ex4={'apple': 10, 'banana': 25, 'grapes': 15}
+maxx=-1
+max_v=""
+for k,v in ex4.items():
+    if v>maxx:
+        max_v=k
+        maxx=v
+print(max_v)
+#otp:banana

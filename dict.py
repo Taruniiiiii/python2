@@ -83,3 +83,11 @@ for word in sentence:
     else:
         freq[word]=1 #else freq=1
 print(word,freq)#prints word and he no of times it is repeated
+
+#2: Merge Two Dictionaries
+di1 = {'a':1, 'b':2}
+di2 = {'b':3, 'c':4}
+for key,value in d2:
+    if  di1[key] in di2:
+        di1[key]=value
+print(di1)

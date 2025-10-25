@@ -83,6 +83,7 @@ for word in sentence:
     else:
         freq[word]=1 #else freq=1
 print(word,freq)#prints word and he no of times it is repeated
+#otp: {'I': 1, 'love': 1, 'python': 2, 'because': 1, 'is': 1, 'easy': 1}
 
 #2: Merge Two Dictionaries
 di1 = {'a':1, 'b':2}
@@ -90,6 +91,7 @@ di2 = {'b':3, 'c':4}
 for key,value in di2.items():#items=key,value pairs
         di1[key]=value
 print(di1)
+#output:{'a': 1, 'b': 3, 'c': 4}
 #or
 #di1.update(di2)
 
@@ -99,6 +101,27 @@ max_marks = -1
 top_student = ""
 for student,mark in res.items():
     if mark>max_marks:
-        max_marks=mark
-        top_student=student
+        max_marks=mark #updates marks
+        top_student=student #updates student name accordingly
 print(top_student,max_marks)
+#otp:Tina 92
+
+#Count Occurrences
+nums=[1, 2, 2, 3, 1, 4, 2]
+dicti={}
+for n in nums:
+    if n in dicti:
+        dicti[n]+=1
+    else:
+        dicti[n]=1
+print(dicti)
+#otp:{1: 2, 2: 3, 3: 1, 4: 1}
+
+#Filter Dictionary by Value
+ex1={'a': 5, 'b': 10, 'c': 2, 'd': 8}
+dictii={}
+for key,value in ex1.items():
+    if value>5:
+        dictii[key]=value
+print(dictii)
+#otp:{'b': 10, 'd': 8}

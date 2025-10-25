@@ -92,3 +92,13 @@ for key,value in di2.items():#items=key,value pairs
 print(di1)
 #or
 #di1.update(di2)
+
+#3: Find Student with Maximum Marks
+res= {'John': 80, 'Tina': 92, 'Alex': 89}
+max_marks = -1
+top_student = ""
+for student,mark in res.items():
+    if mark>max_marks:
+        max_marks=mark
+        top_student=student
+print(top_student,max_marks)

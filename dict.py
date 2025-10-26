@@ -144,3 +144,16 @@ for k,v in ex4.items():
         maxx=v
 print(max_v)
 #otp:banana
+
+dict1 = {'a': 10, 'b': 20, 'c': 30}
+dict2 = {'a': 40, 'b': 50, 'd': 60}
+o={}
+for k,v in dict1.items():
+    if k in dict1 and dict2:
+        o[k]=v
+for k,v in dict2.items():
+    if k in o:
+        o[k] += v   # if key already exists, add values
+    else:
+        o[k] = v
+print(o)

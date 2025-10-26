@@ -159,7 +159,7 @@ for k,v in dict2.items():
 print(o)
 
 #Create Dictionary from Two Lists
-names = ['a', 'b', 'c']
-values = [10, 20, 30]
-m_dict= dict(zip(names,values))
+names=['a', 'b', 'c']
+values=[10, 20, 30]
+m_dict=dict(zip(names,values))
 print(m_dict)

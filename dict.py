@@ -153,7 +153,7 @@ for k,v in dict1.items():
         o[k]=v
 for k,v in dict2.items():
     if k in o:
-        o[k] += v   # if key already exists, add values
+        o[k] += v   # if key already exists add values
     else:
         o[k] = v
 print(o)

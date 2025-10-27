@@ -195,3 +195,4 @@ w_l={}
 for w in wordss:
     w_l[w]=len(w)
 print(w_l)
+#otp:{'python': 6, 'is': 2, 'cool': 4}

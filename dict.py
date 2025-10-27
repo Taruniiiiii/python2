@@ -188,3 +188,10 @@ for i in range(len(values)):
     for j in range(i + 1, len(values)):
         if values[i] + values[j] == target:
             print(f"{keys[i]} and {keys[j]} add up to {target}")
+
+#word length mapping
+wordss = ["python", "is", "cool"]
+w_l={}
+for w in wordss:
+    w_l[w]=len(w)
+print(w_l)

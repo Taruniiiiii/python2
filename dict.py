@@ -163,3 +163,14 @@ names=['a', 'b', 'c']
 values=[10, 20, 30]
 m_dict=dict(zip(names,values))
 print(m_dict)
+
+#count word frequency
+paragraph = "Apple banana apple orange banana apple"
+new_p=paragraph.lower().split()
+p={}
+for word in new_p:
+    if word in p:
+        p[word]+=1
+    else:
+        p[word]=1
+print(p)

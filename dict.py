@@ -174,3 +174,17 @@ for word in new_p:
     else:
         p[word]=1
 print(p)
+#otp: {'apple': 3, 'banana': 2, 'orange': 1}
+
+#Find All Pairs of Keys Whose Values Sum to a Target
+prices = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+prices = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+target = 50
+
+keys = list(prices.keys())
+values = list(prices.values())
+
+for i in range(len(values)):
+    for j in range(i + 1, len(values)):
+        if values[i] + values[j] == target:
+            print(f"{keys[i]} and {keys[j]} add up to {target}")

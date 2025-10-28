@@ -192,8 +192,9 @@ for i in range(len(values)):
 #word length mapping.
 wordss = ["python","is","cool"]
 w_l={}
-w_l = {w: len(w) for w in wordss}
-
+for w in wordss:
+    w_l[w]=len(w)
 print(w_l)
 #otp:{'python':6,'is':2,'cool':4}
-w_l = {w: len(w) for w in wordss}
+#(we can also use this)
+# w_l = {w: len(w) for w in wordss}

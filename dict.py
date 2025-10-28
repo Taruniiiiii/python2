@@ -206,4 +206,4 @@ keys=[]
 for k,v in data.items():
     if v==min_val:
         keys.append(k)
-print(keys,v)
+print(keys)

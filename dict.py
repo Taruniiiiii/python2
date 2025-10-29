@@ -207,3 +207,21 @@ for k,v in data.items():
     if v==min_val:
         keys.append(k)
 print(keys)
+
+#sort dict by value
+scores={'math': 85, 'science': 90, 'english': 75}
+sorted_scores=dict(sorted(scores.items(),key=lambda x:x[1]))# key=lambda x: x[1])) is used to check the 2nd ele in tuple
+print(sorted_scores)
+# {'english': 75, 'math': 85, 'science': 90}
+
+#. Find common keys and unique keys between two dictionaries
+a = {'x': 1, 'y': 2, 'z': 3}
+b = {'y': 2, 'z': 4, 'w': 5}
+
+common_keys=a.keys()&b.keys()
+unique_to_a=a.keys()-b.keys()
+unique_to_b=b.keys()-a.keys()
+
+print(common_keys) # {'y', 'z'}
+print(unique_to_a) # {'x'}
+print(unique_to_b) # {'w'}

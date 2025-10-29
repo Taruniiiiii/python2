@@ -225,3 +225,11 @@ unique_to_b=b.keys()-a.keys()
 print(common_keys) #{'y','z'}
 print(unique_to_a) #{'x'}
 print(unique_to_b) #{'w'}
+
+#
+keys = ['name', 'age', 'city']
+values = ['Taruni', 21, 'Hyderabad']
+neww=(dict(zip(keys,values)))
+print(neww)
+
+# Output: {'name': 'Taruni', 'age': 21, 'city': 'Hyderabad'}

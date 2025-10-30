@@ -232,3 +232,10 @@ values = ['Taruni', 21, 'Hyderabad']
 neww=(dict(zip(keys,values)))
 print(neww)
 # Output: {'name': 'Taruni', 'age': 21, 'city': 'Hyderabad'}
+#geeksfor geeks
+def create_dict(arr):
+
+    dict = {}
+    for key,values in arr:
+        dict[key]=values
+    return dict

@@ -198,13 +198,13 @@ print(w_l)
 #otp:{'python':6,'is':2,'cool':4}
 #(we can also use this)
 # w_l = {w: len(w) for w in wordss}
-"""
+
 #Find Key(s) with Minimum Value
 data = {'a': 4, 'b': 1, 'c': 2, 'd': 1}
 min_val=min(data.values())
 keys=[]
 for k,v in data.items():
-    if v==min_val:"""
+    if v==min_val:
         keys.append(k)
 print(keys)
 

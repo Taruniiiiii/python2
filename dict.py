@@ -198,7 +198,7 @@ print(w_l)
 #otp:{'python':6,'is':2,'cool':4}
 #(we can also use this)
 # w_l = {w: len(w) for w in wordss}
-
+"""
 #Find Key(s) with Minimum Value
 data = {'a': 4, 'b': 1, 'c': 2, 'd': 1}
 min_val=min(data.values())
@@ -207,7 +207,7 @@ for k,v in data.items():
     if v==min_val:
         keys.append(k)
 print(keys)
-
+"""
 #sort dict by value
 scores={'math': 85, 'science': 90, 'english': 75}
 sorted_scores=dict(sorted(scores.items(),key=lambda x:x[1]))# key=lambda x: x[1])) is used to check the 2nd ele in tuple

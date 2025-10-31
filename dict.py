@@ -133,7 +133,7 @@ for key,value in ex3.items():
     dictiii[value]=key
 print(dictiii)
 #otp: {1: 'a', 2: 'b', 3: 'c'}
-
+"""
 #Find the Key with Maximum Value
 ex4={'apple': 10, 'banana': 25, 'grapes': 15}
 maxx=-1
@@ -163,7 +163,7 @@ names=['a', 'b', 'c']
 values=[10, 20, 30]
 m_dict=dict(zip(names,values))
 print(m_dict)
-
+"""
 #count word frequency
 paragraph = "Apple banana apple orange banana apple"
 new_p=paragraph.lower().split()

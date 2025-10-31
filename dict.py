@@ -143,7 +143,7 @@ for k,v in ex4.items():
         max_v=k
         maxx=v
 print(max_v)
-#otp:banana
+#otp:banana"""
 
 dict1 = {'a': 10, 'b': 20, 'c': 30}
 dict2 = {'a': 40, 'b': 50, 'd': 60}
@@ -160,7 +160,7 @@ print(o)
 
 #Create Dictionary from Two Lists
 names=['a', 'b', 'c']
-values=[10, 20, 30]"""
+values=[10, 20, 30]
 m_dict=dict(zip(names,values))
 print(m_dict)
 

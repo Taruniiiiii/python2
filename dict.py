@@ -160,9 +160,10 @@ print(o)
 
 #Create Dictionary from Two Lists
 names=['a', 'b', 'c']
-values=[10, 20, 30]
+values=[10, 20, 30]"""
 m_dict=dict(zip(names,values))
-print(m_dict)"""
+print(m_dict)
+
 #count word frequency
 paragraph = "Apple banana apple orange banana apple"
 new_p=paragraph.lower().split()

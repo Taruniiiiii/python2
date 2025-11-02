@@ -237,8 +237,8 @@ def create_dict(arr):
 
     dict = {}
     for key,values in arr:
-        dict[key]=values
-    return dict"""
+        dict[key]=values"""
+    return dict
 
 #Create a dictionary mapping numbers 1–5 to their squares
 n={}

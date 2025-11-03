@@ -241,7 +241,7 @@ def create_dict(arr):
     return dict"""
 
 #Create a dictionary mapping numbers 1–5 to their squares
-n={}
+n={}"""
 for i in range(1,6):
     n[i]=i*i
 print(n)

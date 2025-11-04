@@ -116,6 +116,8 @@ for word in words:
 print(dicti)
 #otp:{'hi': 1, 'im': 2, 'taruni': 1, 'learning': 1, 'python': 2, 'is': 1, 'fun': 1}
 
-
+def toBinary(n):
+    n=int(n)
+    return str(bin(n))[2:]
 
 

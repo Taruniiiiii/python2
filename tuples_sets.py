@@ -173,3 +173,12 @@ for word in text.split():
 
 unique_words = {word for word, count in word_count.items() if count == 1}
 print("unique_words:",unique_words)
+
+
+ex=(10,20,30)
+set_list= list(ex)
+print(set_list)
+set_list[1]=99
+print(set_list)
+li_tup=tuple(set_list)
+print(li_tup)

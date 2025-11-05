@@ -88,4 +88,4 @@ def pos(n):
     
 def neg(n):
     for i in range(n,1,1):
-        print(i,end=" ")"""
+        print(i,end=" ")

@@ -182,3 +182,19 @@ set_list[1]=99
 print(set_list)
 li_tup=tuple(set_list)
 print(li_tup)
+
+names=['a', 'b', 'c']
+values=[10, 20, 30]
+m_dict=dict(zip(names,values))
+print(m_dict)
+
+n=7
+for i in range(1,n+1):
+    print(" " * (n-i),end="")# prints spaces acc to i=rows as rows increases spaces decreases
+    print("*"*(2*i-1))#prints * odd no of times
+
+#Write a function that finds the maximum element in a list.
+li=[1,2,4,888,5,44,7]
+def maxEleInList(li):
+    return max(li)
+print(maxEleInList(li),"is max in list")

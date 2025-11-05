@@ -417,7 +417,7 @@ while num > 0:
         num -= 1
     steps += 1
 print(steps)
-
+"""
 # Number of Good Pairs
 count=0
 for i in range(len(nums)):#checks from index 0
@@ -431,3 +431,4 @@ for i in nums:
     if len(str(i))%2==0:
         count+=1
 return count
+"""

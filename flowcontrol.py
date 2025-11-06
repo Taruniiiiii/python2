@@ -83,9 +83,9 @@ def printIncreasingPower(x):
 # subtracting 1 from n in the pos function.
 def pos(n):
     for i in range(n-1,-1,-1):
-        print(i,end=" ")
+        print(i,end=" ")"""
         
     
 def neg(n):
     for i in range(n,1,1):
-        print(i,end=" ")"""
+        print(i,end=" ")

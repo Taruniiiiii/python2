@@ -124,8 +124,8 @@ elif  vehicle_type=="bike" and time_of_day=="off-peak":
     parking_time=parking_time*20
     print("to pay...",parking_time)
 else:
-    print("invalid vehicle_type")
-"""
+    print("invalid vehicle_type")""""
+
 #Bank ATM Cash Dispenser
 pin=int(1234)
 withdrawal_amt=int(input("enter the amt you want to withdraw"))

@@ -73,7 +73,7 @@ else:
     print("not a vowel")
 
 #sep3
-# Hospital Bed Allocation System
+#Hospital Bed Allocation system
 
 condition=str(input("Patient condition(critical/serious/normal): "))
 if condition=="critical":

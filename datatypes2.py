@@ -11,7 +11,7 @@ c=complex(x)
 print(a)
 print(b)
 print(c)
-#type of data
+#type of dataa
 print(type(a))
 print(type(b))
 print(type(c))

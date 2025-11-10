@@ -8,10 +8,10 @@ b=int(y)
 #convert from int to complex
 c=complex(x)
 print(a)
-print(b)"""
+print(b)
 print(c)
 
-#type of dataa
+#type of dataa""""
 print(type(a))
 print(type(b))
 print(type(c))

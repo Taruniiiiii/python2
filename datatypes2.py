@@ -1,4 +1,4 @@
-x = 15 
+"""x = 15 
 y = 3.14  
 z = 7j   
 #convert from int to float
@@ -7,10 +7,10 @@ a=float(x)
 b=int(y)
 #convert from int to complex
 c=complex(x)
-
 print(a)
 print(b)
-print(c)
+print(c)"""
+
 #type of dataa
 print(type(a))
 print(type(b))

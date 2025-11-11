@@ -11,8 +11,8 @@ print(a)
 print(b)
 print(c)
 
-#type of dataa""""
-print(type(a))
+#type of dataa
+print(type(a))"""
 print(type(b))
 print(type(c))
 

@@ -12,9 +12,9 @@ print(b)
 print(c)
 
 #type of dataa
-print(type(a))"""
+print(type(a))
 print(type(b))
-print(type(c))
+print(type(c))"""
 
 #operators from hackerrank
 a = int(input())

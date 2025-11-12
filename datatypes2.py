@@ -25,6 +25,6 @@ print(a*b)
 
 #division operator  from hackerrank
 a = int(input())
-b = int(input())"""
-print(a//b)
+b = int(input())
+print(a//b)"""
 print(a/b)

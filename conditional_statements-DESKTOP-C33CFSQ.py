@@ -73,7 +73,7 @@ else:
     print("not a vowel")
 
 #sep3
-# Hospital Bed Allocation System
+#Hospital Bed allocation system
 
 condition=str(input("Patient condition(critical/serious/normal): "))
 if condition=="critical":
@@ -105,6 +105,7 @@ else:
         print("Invalid vehicle type")
 
 #sep4
+
 #Smart Parking System
 vehicle_type=str(input("Vehicle type(car/bike): "))
 time_of_day=str(input("peak time(8-10am)and(5-8pm)||off-peak time(late  night or mid day): "))
@@ -124,7 +125,7 @@ elif  vehicle_type=="bike" and time_of_day=="off-peak":
     parking_time=parking_time*20
     print("to pay...",parking_time)
 else:
-    print("invalid vehicle_type")""""
+    print("invalid vehicle_type")
 
 #Bank ATM Cash Dispenser
 pin=int(1234)
@@ -135,4 +136,4 @@ if pin_crt==pin and balance_amt>=withdrawal_amt and withdrawal_amt%100==0:
     print("Here is your money!!!")
 else:
     print("invalid")
-
+"""

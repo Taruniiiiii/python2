@@ -2,9 +2,9 @@ x = 15
 y = 3.14  
 z = 7j   
 #convert from int to float
-a=float(x)"""
+a=float(x)
 #convert from float to int
-b=int(y)
+b=int(y)"""
 #convert from int to complex
 c=complex(x)
 

@@ -415,8 +415,8 @@ while num > 0:
         num //= 2
     else:
         num -= 1
-    steps += 1
-print(steps)"""
+    steps += 1"""
+print(steps)
 
 # Number of Good Pairs
 count=0

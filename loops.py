@@ -420,9 +420,9 @@ print(steps)
 
 # Number of Good Pairs
 count=0
-for i in range(len(nums)):"""#checks from index 0
+for i in range(len(nums)):#checks from index 0
     for j in range(i+1,len(nums)):#checks from index+1
-        if nums[i]==nums[j]:
+        if nums[i]==nums[j]:"""
             count+=1
 return count
 #Find Numbers with Even Number of Digits

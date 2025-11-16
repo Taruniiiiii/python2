@@ -411,7 +411,7 @@ def printNos(self,n,i=1):
 num = int(input())
 steps = 0
 while num > 0:
-    if num % 2 == 0:"""
+    if num % 2 == 0:
         num //= 2
     else:
         num -= 1
@@ -419,7 +419,7 @@ while num > 0:
 print(steps)
 
 # Number of Good Pairs
-count=0
+count=0"""
 for i in range(len(nums)):#checks from index 0
     for j in range(i+1,len(nums)):#checks from index+1
         if nums[i]==nums[j]:

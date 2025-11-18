@@ -43,8 +43,8 @@ listc.sort(reverse=True)
 print(listc)
 
 #9 squares in list
-llist=[1,2,3,4,5,6,7,8,9,10]"""
-for x in llist:
+llist=[1,2,3,4,5,6,7,8,9,10]
+for x in llist:"""
     i=0
     i=i*x
 

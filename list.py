@@ -50,8 +50,8 @@ for x in llist:
 
 #10 find the second largest number in a list
 
-llist2=[11,2,33,42,5,31,98,67,0]"""
-llist2.sort()
+llist2=[11,2,33,42,5,31,98,67,0]
+llist2.sort()"""
 print(llist2)
 print("second largest  in llist2 is: ",llist2[-2])
 

@@ -45,9 +45,9 @@ print(listc)
 #9 squares in list
 llist=[1,2,3,4,5,6,7,8,9,10]
 for x in llist:
-    i=0"""
+    i=0
     i=i*x
-
+"""
 #10 find the second largest number in a list
 
 llist2=[11,2,33,42,5,31,98,67,0]

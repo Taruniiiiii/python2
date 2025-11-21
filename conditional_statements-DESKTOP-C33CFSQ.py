@@ -7,8 +7,8 @@ def friends_in_trouble(j_angry, s_angry):
         return False
 
 #2
-def checkOddEven(x):"""
-    if x%2==0:
+def checkOddEven(x):
+    if x%2==0:"""
         return "Even"
     else:
         return "Odd"

@@ -10,8 +10,8 @@ def friends_in_trouble(j_angry, s_angry):
 def checkOddEven(x):
     if x%2==0:
         return "Even"
-    else:"""
-        return "Odd"
+    else:
+        return "Odd""""
     
 #3 return True if  the words "cat" and "hat" appear same 
 # number of times in str, otherwise return False.

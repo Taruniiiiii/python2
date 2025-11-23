@@ -15,8 +15,8 @@ def checkOddEven(x):
     
 #3 return True if  the words "cat" and "hat" appear same 
 # number of times in str, otherwise return False.
-def cat_hat(str):"""
-  if str.count("cat") == str.count("hat"):
+def cat_hat(str):
+  if str.count("cat") == str.count("hat"):"""
       return True
   else:
       return False

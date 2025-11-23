@@ -17,8 +17,8 @@ def checkOddEven(x):
 # number of times in str, otherwise return False.
 def cat_hat(str):
   if str.count("cat") == str.count("hat"):
-      return True"""
-  else:
+      return True
+  else:"""
       return False
 
 #4

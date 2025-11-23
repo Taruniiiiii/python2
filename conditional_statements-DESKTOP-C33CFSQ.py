@@ -18,8 +18,8 @@ def checkOddEven(x):
 def cat_hat(str):
   if str.count("cat") == str.count("hat"):
       return True
-  else:"""
-      return False
+  else:
+      return False"""
 
 #4
 a=int(input())

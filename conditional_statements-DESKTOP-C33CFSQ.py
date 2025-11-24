@@ -19,10 +19,10 @@ def cat_hat(str):
   if str.count("cat") == str.count("hat"):
       return True
   else:
-      return False"""
+      return False
 
 #4
-a=int(input())
+a=int(input())"""
 if(a>100):
     print("Big")
 else:

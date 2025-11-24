@@ -22,8 +22,8 @@ def cat_hat(str):
       return False
 
 #4
-a=int(input())"""
-if(a>100):
+a=int(input())
+if(a>100):"""
     print("Big")
 else:
     print("Number")

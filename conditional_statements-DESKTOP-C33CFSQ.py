@@ -23,8 +23,8 @@ def cat_hat(str):
 
 #4
 a=int(input())
-if(a>100):"""
-    print("Big")
+if(a>100):
+    print("Big")"""
 else:
     print("Number")
 

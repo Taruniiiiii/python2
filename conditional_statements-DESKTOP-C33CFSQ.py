@@ -25,12 +25,12 @@ def cat_hat(str):
 a=int(input())
 if(a>100):
     print("Big")
-else:"""
+else:
     print("Number")
 
 ##
 if age<=12:
-    print("Travel for free")
+    print("Travel for free")"""
 else:
     print("Pay for ticket")
 

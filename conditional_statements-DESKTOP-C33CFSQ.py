@@ -39,8 +39,8 @@ age=25
 
 if age<=12:
     print("child.")
-elif age<=19:"""
-    print("teen")
+elif age<=19:
+    print("teen")""""
 elif age<=35:
     print("Young adult")
 else:

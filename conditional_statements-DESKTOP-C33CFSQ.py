@@ -32,12 +32,12 @@ else:
 if age<=12:
     print("Travel for free")
 else:
-    print("Pay for ticket")"""
+    print("Pay for ticket")
 
 ##
 age=25
 
-if age<=12:
+if age<=12:""""
     print("child.")
 elif age<=19:
     print("teen")

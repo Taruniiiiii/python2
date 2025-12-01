@@ -95,9 +95,9 @@ elif vehicle_type=="bike" and payment_type=="FAStag":
 elif vehicle_type=="truck" and payment_type=="FAStag":
     print("Truck fare=300,after 10% discount:270")
 else:
-    if vehicle_type == "car":
+    if vehicle_type == "car":"""
         print("Car fare =100+10 service fee='110'")
-    elif vehicle_type == "bike":"""
+    elif vehicle_type == "bike":
         print("Bike fare =50+10 service fee='60'")
     elif vehicle_type == "truck":
         print("Truck fare =300+10 service fee='310'")

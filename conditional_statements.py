@@ -97,7 +97,7 @@ elif vehicle_type=="truck" and payment_type=="FAStag":
 else:
     if vehicle_type == "car":
         print("Car fare =100+10 service fee='110'")
-    elif vehicle_type == "bike":
+    elif vehicle_type == "bike":"""
         print("Bike fare =50+10 service fee='60'")
     elif vehicle_type == "truck":
         print("Truck fare =300+10 service fee='310'")
@@ -124,7 +124,7 @@ elif  vehicle_type=="bike" and time_of_day=="off-peak":
     parking_time=parking_time*20
     print("to pay...",parking_time)
 else:
-    print("invalid vehicle_type")""""
+    print("invalid vehicle_type")
 
 #Bank ATM Cash Dispenser
 pin=int(1234)

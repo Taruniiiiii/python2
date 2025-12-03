@@ -90,8 +90,8 @@ vehicle_type=str(input("car/bike/truck: "))
 payment_type=str(input("cash/FASTag"))
 if vehicle_type=="car" and payment_type=="FASTag":
     print("Car fare=100,after 10% discount=90")
-elif vehicle_type=="bike" and payment_type=="FAStag":
-    print("Bike fare=50,after 10% discount=45")"""
+elif vehicle_type=="bike" and payment_type=="FAStag":"""
+    print("Bike fare=50,after 10% discount=45")
 elif vehicle_type=="truck" and payment_type=="FAStag":
     print("Truck fare=300,after 10% discount:270")
 else:

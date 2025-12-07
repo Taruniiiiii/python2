@@ -81,11 +81,12 @@ if condition=="critical":
 elif condition=="serious":
     print("special ward")
 elif condition=="normal":
-    print("general ward")
+    print("general ward")"""
 else:
-    print("no patient")
+    print("no patient"
 
-#Smart Toll Payment System"""
+#Smart Toll Payment System
+
 vehicle_type=str(input("car/bike/truck: "))
 payment_type=str(input("cash/FASTag"))
 if vehicle_type=="car" and payment_type=="FASTag":

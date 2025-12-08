@@ -80,8 +80,8 @@ if condition=="critical":
     print("icu bed")
 elif condition=="serious":
     print("special ward")
-elif condition=="normal":
-    print("general ward")"""
+elif condition=="normal":"""
+    print("general ward")
 else:
     print("no patient"
 

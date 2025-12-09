@@ -78,8 +78,8 @@ else:
 condition=str(input("Patient condition(critical/serious/normal): "))
 if condition=="critical":
     print("icu bed")
-elif condition=="serious":
-    print("special ward")"""
+elif condition=="serious":"""
+    print("special ward")
 elif condition=="normal":
     print("general ward")
 else:

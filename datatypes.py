@@ -15,12 +15,12 @@ print(num[0])
 #immutable (shows error)'tuple' object does not support item assignment
 #num[1]=70
 #3
-var1 = 42 """
+var1 = 42 
 var2 = 3.14 
 var3 = "hello" 
 var4 = True 
 var5 = [1, 2] 
-var6 = (1, 2) 
+var6 = (1, 2) """
 var7 = {"a": 1} 
 var8 = {1, 2} 
 variables = [var1,var2,var3,var4,var5,var6,var7,var8]

@@ -10,7 +10,7 @@ print(d2)
 #We can access a value from a dictionary by using the key within square brackets or get() method.
 d = {"name":"Taruni",1:"Python",(1,2):[1,2,4]}
 
-# Access using key
+# Access using key"""
 print(d[(1,2)])
 
 # Access using get()

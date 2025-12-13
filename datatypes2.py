@@ -13,11 +13,11 @@ print(b)
 print(c)
 #type of data
 print(type(a))
-print(type(b))
+print(type(b))"""
 print(type(c))
 
 #operators from hackerrank
-a = int(input())"""
+a = int(input())
 b = int(input())
 print(a+b)
 print(a-b)

@@ -1,4 +1,4 @@
-"""#Given two numbers a and b. You need to perform
+#Given two numbers a and b. You need to perform
 #  basic mathematical operations on them
 a=int(input())
 b=int(input())
@@ -7,7 +7,7 @@ if operator==1:
 elif operator==2:
     print(b-a)
 elif operator==3:
-    print(a*b)
+    print(a*b)"""
 else:
     return "Invalid Input"
 

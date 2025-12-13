@@ -11,7 +11,7 @@ print(d2)
 d = {"name":"Taruni",1:"Python",(1,2):[1,2,4]}
 
 # Access using key
-print(d[(1,2)])
+print(d[(1,2)])"""
 
 # Access using get()
 print(d.get("name"))

@@ -10,10 +10,10 @@ c=complex(x)
 
 print(a)
 print(b)
-print(c)
+print(c)"""
 #type of data
 print(type(a))
-print(type(b))"""
+print(type(b))
 print(type(c))
 
 #operators from hackerrank

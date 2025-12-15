@@ -1,10 +1,10 @@
 #1 square of Stars
-n=int(input())
+"""n=int(input())
 for i in range(n):
-    for j in range(n):"""
+    for j in range(n):
         print("*",end="")
     print()
-   """ 
+   
 #2 right-angled triangle of stars
 n=int(input())
 for i in range(0,n+1):
@@ -79,3 +79,4 @@ while i*i <= num:
 else:
     print(False)"""
 
+print("hello")

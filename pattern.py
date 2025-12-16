@@ -48,7 +48,7 @@ else:
 
 #Take the sides of a triangle and check if it is valid or not.
 a=int(input())
-b=int(input())
+b=int(input())""
 c=int(input())
 if (a+b>c) and (a+c>b) and (b+c>a):
     print("triangle ")
@@ -77,6 +77,6 @@ while i*i <= num:
         break
     i += 1
 else:
-    print(False)"""
+    print(False)
 
 print("hello")

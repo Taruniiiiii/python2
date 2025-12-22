@@ -37,7 +37,7 @@ print(rev)
 #Write a program to check if a number is Prime or not.
 n = int(input())
 if n > 1:
-    for i in range(2, n):"""
+    for i in range(2, n):
         if n % i == 0:
             print("Not Prime")
             break
@@ -49,7 +49,7 @@ else:
 #Take the sides of a triangle and check if it is valid or not.
 a=int(input())
 b=int(input())
-c=int(input())
+c=int(input()""")
 if (a+b>c) and (a+c>b) and (b+c>a):
     print("triangle ")
 else:

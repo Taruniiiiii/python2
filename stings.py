@@ -28,10 +28,10 @@ lap=pal[::-1]
 if pal==lap:
     print("True")
 else:
-    print("False")"""
+    print("False")
 
 #removing dups from string
-dup=str(input())
+dup=str(input())"""
 no_dup=""
 for i in dup:
     if i not in no_dup:

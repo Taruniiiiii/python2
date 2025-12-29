@@ -31,13 +31,13 @@ rev=0
 while n>0:
      digit=n%10
      rev=rev*10+digit
-     n=n//10"""
+     n=n//10
 print(rev)
 
 #Write a program to check if a number is Prime or not.
 n = int(input())
 if n > 1:
-    for i in range(2, n):
+    for i in range(2, n):"""
         if n % i == 0:
             print("Not Prime")
             break

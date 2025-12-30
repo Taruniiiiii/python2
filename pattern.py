@@ -55,7 +55,7 @@ if (a+b>c) and (a+c>b) and (b+c>a):
 else:
     print("not a triangle")
 
-for i in range(5"""):
+for i in range(5):
     print("taruni medishetty")
 
 for i in range(1,11):

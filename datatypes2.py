@@ -10,7 +10,7 @@ c=complex(x)
 
 print(a)
 print(b)
-print(c)"""
+print(c)
 #type of data
 print(type(a))
 print(type(b))

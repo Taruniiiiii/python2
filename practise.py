@@ -7,7 +7,7 @@ else:
 
 #similarly 
 n=int(input())
-if n%3==0 or n%7==0:
+if n%3==0 or n%7==0:"""
     print("YES,given number is divisible by 3 and 7")
 else:
     print("given num is not divisible by 3 and 7")
@@ -21,7 +21,7 @@ elif x>=75:
 elif x>=50:
     print("C grade")
 else:
-    print("FAIL")"""
+    print("FAIL")
 
 #Write a program to find the maximum of four numbers using if-else.
 m=int(input())

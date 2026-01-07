@@ -21,7 +21,7 @@ elif x>=75:
 elif x>=50:
     print("C grade")
 else:
-    print("FAIL")
+    print("FAIL")"""
 
 #Write a program to find the maximum of four numbers using if-else.
 m=int(input())

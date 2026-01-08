@@ -1,8 +1,8 @@
 
-
+"""
 def friends_in_trouble(j_angry, s_angry):
     if(j_angry == True and s_angry == True):
-        return True"""
+        return True
     elif(j_angry == True and s_angry == False):
         return False
 
@@ -75,7 +75,7 @@ else:
 #sep3
 # Hospital Bed Allocation System
 
-condition=str(input("Patient condition(critical/serious/normal): "))"""
+condition=str(input("Patient condition(critical/serious/normal): "))
 if condition=="critical":
     print("icu bed")
 elif condition=="serious":
@@ -136,4 +136,28 @@ if pin_crt==pin and balance_amt>=withdrawal_amt and withdrawal_amt%100==0:
     print("Here is your money!!!")
 else:
     print("invalid")
+"""
+#leetcode
+class Solution:
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        dummy = ListNode()      # Step 1: create dummy head
+        current = dummy         # Step 2: pointer to build merged list
 
+        while list1 is not None and list2 is not None:  # Step 3: loop while both exist
+            if list1.val <= list2.val:
+                current.next = list1   # splice list1 node
+                list1 = list1.next     # move list1 pointer
+            else:
+                current.next = list2   # splice list2 node
+                list2 = list2.next     # move list2 pointer
+            
+            current = current.next     # always move merged list pointer
+
+        # Step 4: attach remaining nodes (only one list will be non-empty)
+        if list1 is not None:
+            current.next=list1
+        else:
+            current.next=list2
+        # Step 5: return head of merged list
+
+        return dummy.next

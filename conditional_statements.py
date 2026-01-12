@@ -4,11 +4,11 @@ def friends_in_trouble(j_angry, s_angry):
     if(j_angry == True and s_angry == True):
         return True
     elif(j_angry == True and s_angry == False):
-        return False"""
+        return False
 
 #2
 def checkOddEven(x):
-    if x%2==0:
+    if x%2==0:"""
         return "Even"
     else:
         return "Odd"

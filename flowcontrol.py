@@ -7,9 +7,9 @@ if operator==1:
 elif operator==2:
     print(b-a)
 elif operator==3:
-    print(a*b)"""
+    print(a*b)
 else:
-    return "Invalid Input"
+    return "Invalid Input""""
 
 #User function Template for python3
 # Take a, b and c input and print the greatest of three

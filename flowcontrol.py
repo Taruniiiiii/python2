@@ -9,12 +9,12 @@ elif operator==2:
 elif operator==3:
     print(a*b)
 else:
-    return "Invalid Input""""
+    return "Invalid Input"
 
 #User function Template for python3
 # Take a, b and c input and print the greatest of three
 q=int(input())
-p=int(input())
+p=int(input())"""
 c=int(input())
 x=[a,b,c]
 x.sort()

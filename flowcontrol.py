@@ -14,8 +14,8 @@ else:
 #User function Template for python3
 # Take a, b and c input and print the greatest of three
 q=int(input())
-p=int(input())"""
-c=int(input())
+p=int(input())
+c=int(input())"""
 x=[a,b,c]
 x.sort()
 print(x[-1])

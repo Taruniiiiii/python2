@@ -64,7 +64,7 @@ if n>=5000:
 elif n>=2000:
     print("you get 10% discount")
 else:
-    print("no discount")
+    print("no discount")"""
 #Vowel or Consonant Checke
 v=str(input("enter a char: "))
 if v=="a" or v=="e" or v=="i" or v=="o" or v=="u":

@@ -8,7 +8,7 @@ def friends_in_trouble(j_angry, s_angry):
 
 #2
 def checkOddEven(x):
-    if x%2==0:"""
+    if x%2==0:
         return "Even"
     else:
         return "Odd"
@@ -18,7 +18,7 @@ def checkOddEven(x):
 def cat_hat(str):
   if str.count("cat") == str.count("hat"):
       return True
-  else:
+  else:"""
       return False
 
 #4

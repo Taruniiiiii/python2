@@ -18,8 +18,8 @@ for i in range(1,n+1):#takes values from 1 to n+1
 print(fact)
 
 #prime or not
-n=int(input())"""
-for i in range(2, n):
+n=int(input())
+for i in range(2, n):"""
     if n % i == 0:
         print("not prime")
         break

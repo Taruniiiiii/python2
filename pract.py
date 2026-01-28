@@ -99,3 +99,16 @@ for n in y:
         res.append(n)
 res.extend([0]*z_count)#extend() means  add all ele of another list 1 by 1 to the list
 print(res)
+
+##
+class Solution(object):
+    def groupAnagrams(self, strs):
+        group={}
+        for word in strs:
+            keys="".join(sorted(word))
+            if keys not in group:
+                group[keys]=[]
+            group[keys].append(word)
+        return list(group.values())
+
+        

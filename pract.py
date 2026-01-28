@@ -24,7 +24,6 @@ for i in range(2, n):
         print("not prime")
         break
 else:
-<<<<<<< HEAD
     print("prime")
     
 data = input()
@@ -70,7 +69,7 @@ while temp > 0:
     temp //= 10
 
 print("Armstrong" if sum == n else "Not Armstrong")
-"""
+
 ##28 duplicates
 sen=input("enter a sentence").split()
 unique=[]
@@ -78,6 +77,25 @@ for w in sen:
   if w not in unique:
       unique.append(w)
 print(" ".join(unique))
-=======
-    print("prime")"""
->>>>>>> e630764212dc4b10163c4462d8378c9fc27aea8c
+"""
+##
+ex="aabbbc"
+freq={}
+for ch in ex:
+    if ch in freq:
+        freq[ch]+=1
+    else:
+        freq[ch]=1
+print(freq)
+
+##
+y=[0,1,0,3,12]
+res=[]
+z_count=0
+for n in y:
+    if n==0:
+        z_count+=1
+    else:
+        res.append(n)
+res.extend([0]*z_count)#extend() means  add all ele of another list 1 by 1 to the list
+print(res)

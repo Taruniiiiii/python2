@@ -11,7 +11,7 @@ print(d2)
 d = {"name":"Taruni",1:"Python",(1,2):[1,2,4]}
 
 # Access using key
-print(d[(1,2)])"""
+print(d[(1,2)])
 
 # Access using get()
 print(d.get("name"))
@@ -23,11 +23,11 @@ print(d1)
 d1[1] = "man"
 print(d1)
 
-"""del: Removes an item by key.
+del: Removes an item by key.
 pop(): Removes an item by key and returns its value.
 clear(): Empties the dictionary.
 popitem(): Removes and returns the last key-value pair.
-"""
+
 # Using del to remove an item
 del d1["age"]
 print(d1)

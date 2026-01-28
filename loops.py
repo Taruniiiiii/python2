@@ -167,7 +167,7 @@ while True:
         print("exit")
         break
     else:
-        print("invalid choice"
+        print("invalid choice")
 
 #Shopping Discount System
 

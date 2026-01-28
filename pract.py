@@ -24,6 +24,7 @@ for i in range(2, n):
         print("not prime")
         break
 else:
+<<<<<<< HEAD
     print("prime")
     
 data = input()
@@ -77,3 +78,6 @@ for w in sen:
   if w not in unique:
       unique.append(w)
 print(" ".join(unique))
+=======
+    print("prime")"""
+>>>>>>> e630764212dc4b10163c4462d8378c9fc27aea8c

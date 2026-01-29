@@ -111,4 +111,16 @@ class Solution(object):
             group[keys].append(word)
         return list(group.values())
 
-        
+#29
+class Solution(object):
+    def majorityElement(self, nums):
+        count=0
+        cand=None
+        for n in nums:
+            if count == 0:
+                cand = n
+            if n==cand:
+                count+=1
+            else:
+                count-=1
+        return cand

@@ -124,3 +124,13 @@ class Solution(object):
             else:
                 count-=1
         return cand
+    
+##let
+class Solution(object):
+    def findTheDifference(self, s, t):
+        res=0
+        for ch in s:
+            res^=ord(ch) #^ xor operator which gives all -ve asn
+        for ch in t:
+            res^=ord(ch)
+        return chr(res) #num to letter conversion(chr)

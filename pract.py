@@ -136,7 +136,12 @@ class Solution(object):
         return chr(res) #num to letter conversion(chr)
     
 ##
-d="123345"
-rev=0
-while d>0:
-    
+class Solution(object):
+    def toLowerCase(self, s):
+        return s.lower()
+        
+##
+class Solution(object):
+    def isAnagram(self, s, t):
+        return sorted(s)==sorted(t)
+        

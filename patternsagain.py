@@ -21,3 +21,16 @@ for i in range(n):
         else:
             print(" ",end=" ")
     print()
+"""
+* * * * 
+*     * 
+*     *
+* * * *
+"""
+n=4
+for i in range(n):
+    for j in range(n-i-1):
+        print(" ",end="")
+    for j in range(n):
+        print("*",end="")
+    print()

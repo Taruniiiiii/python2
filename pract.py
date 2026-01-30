@@ -134,3 +134,9 @@ class Solution(object):
         for ch in t:
             res^=ord(ch)
         return chr(res) #num to letter conversion(chr)
+    
+##
+d="123345"
+rev=0
+while d>0:
+    

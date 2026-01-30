@@ -161,3 +161,11 @@ class Solution(object):
                 right-=1
             pos-=1
         return res
+##
+class Solution(object):
+    def detectCapitalUse(self, word):
+        if word.isupper() or word.islower() or word.istitle():
+            return True
+        else:
+            return False
+        

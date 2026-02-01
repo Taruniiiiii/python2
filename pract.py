@@ -161,7 +161,7 @@ class Solution(object):
                 right-=1
             pos-=1
         return res
-##
+##31 jan
 class Solution(object):
     def detectCapitalUse(self, word):
         if word.isupper() or word.islower() or word.istitle():
@@ -184,3 +184,18 @@ class Solution(object):
             else:
                 res.append(str(i))
         return res
+    
+##1 feb
+class Solution:
+    def capitalizeTitle(self, title: str) -> str:
+        word=title.split()
+        res=[]
+        for w in word:
+            if len(w)<=2:
+                res.append(w.lower())
+            else:
+                res.append(w[0].upper()+ w[1:].lower()) 
+        return " ".join(res)
+
+                
+        

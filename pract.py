@@ -210,7 +210,7 @@ class Solution:
         else:
             return "none"
 
-#
+#5 feb
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         pos = 0
@@ -226,4 +226,11 @@ class Solution:
             return False
         else:
             return True
-        
+##6 feb
+class Solution:
+    def countSegments(self, s: str) -> int:
+        count=0
+        s=s.split()
+        for word in s:
+            count+=1
+        return count

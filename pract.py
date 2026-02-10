@@ -225,12 +225,12 @@ class Solution:
         if n%4==0:
             return False
         else:
-            return True"""
+            return True
 ##7 feb
 class Solution:
     def countSegments(self, s: str) -> int:
         count=0
         s=s.split()
         for word in s:
-            count+=1
+            count+=1"""
         return count

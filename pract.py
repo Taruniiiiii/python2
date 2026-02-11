@@ -232,5 +232,5 @@ class Solution:
         count=0
         s=s.split()
         for word in s:
-            count+=1"""
-        return count
+            count+=1
+        return count"""

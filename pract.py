@@ -213,7 +213,7 @@ class Solution:
 #5 feb
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
-        pos = 0
+        pos = 0"""
 
         for i in range(len(nums)):
             if nums[i] != 0:
@@ -233,4 +233,4 @@ class Solution:
         s=s.split()
         for word in s:
             count+=1
-        return count"""
+        return count

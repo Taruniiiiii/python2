@@ -205,7 +205,7 @@ class Solution:
             return "equilateral"
         elif (a==b or b==c or c==a)and a+b>c and b+c>a and c+a>b :
             return "isosceles"
-        elif a+b>c and b+c>a and c+a>b:
+        elif a+b>c and b+c>a and c+a>b:""""""
             return "scalene"
         else:
             return "none"
@@ -213,7 +213,7 @@ class Solution:
 #5 feb
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
-        pos = 0"""
+        pos = 0
 
         for i in range(len(nums)):
             if nums[i] != 0:

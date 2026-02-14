@@ -205,7 +205,7 @@ class Solution:
             return "equilateral"
         elif (a==b or b==c or c==a)and a+b>c and b+c>a and c+a>b :
             return "isosceles"
-        elif a+b>c and b+c>a and c+a>b:""""""
+        elif a+b>c and b+c>a and c+a>b:
             return "scalene"
         else:
             return "none"
@@ -233,4 +233,28 @@ class Solution:
         s=s.split()
         for word in s:
             count+=1
-        return count
+        return counts
+
+#gfg
+class Solution:
+    def minTime (self, arr, k):
+        low=max(arr)
+        high=sum(arr)
+        
+        while low<high:
+            mid=(low+high)//2
+            
+            painters=1
+            work=0
+            for board in arr:
+                if work+board<=mid:
+                    work+=board
+                else:
+                    painters+=1
+                    work=board
+            if painters<=k:
+                high=mid
+            else:
+                low=mid+1
+        return low
+        

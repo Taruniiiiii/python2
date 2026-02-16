@@ -257,4 +257,13 @@ class Solution:
             else:
                 low=mid+1
         return low
+#gfg
+class Solution:
+    def canAttend(self, arr):
+        arr.sort()#sorting arr
+        for i in range(1,len(arr)):
+            if arr[i][0]<arr[i-1][1]:#condition applied
+                return False
+        return True
+            
         

@@ -162,10 +162,18 @@ class Solution:
 
         return dummy.next
 
-#hw
+#####
 #sum of list n numbers
 n=int(input("enter a num:" ))
 tot=0
 for i in range(0,n+1):
     tot+=i
 print(tot)
+
+##check if given string is palindrome or not
+t=str(input("enter a word:" ))
+t2=str(input("enter a word:" ))
+if t==t2[::-1]:
+    print("its a palindrome")
+else:
+    print("its not a palindrome")

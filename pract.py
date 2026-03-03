@@ -139,11 +139,13 @@ class Solution(object):
 class Solution(object):
     def toLowerCase(self, s):
         return s.lower()
+
+
         
 ##
 class Solution(object):
     def isAnagram(self, s, t):
-        return sorted(s)==sorted(t)""""""
+        return sorted(s)==sorted(t)
         
 ##
 class Solution(object):
@@ -287,3 +289,13 @@ class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         result=int(num1)*int(num2)
         return str(result)
+    
+    class Solution:
+    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+        num = set(nums)
+        s = []
+        for i in range(1,len(nums)+1):
+            if i not in num:
+                s.append(i)
+
+        return s

@@ -136,7 +136,7 @@ if pin_crt==pin and balance_amt>=withdrawal_amt and withdrawal_amt%100==0:
     print("Here is your money!!!")
 else:
     print("invalid")
-"""
+
 #leetcode
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
@@ -161,3 +161,11 @@ class Solution:
         # Step 5: return head of merged list
 
         return dummy.next
+
+#hw
+#sum of list n numbers
+n=int(input("enter a num:" ))
+tot=0
+for i in range(0,n+1):
+    tot+=i
+print(tot)

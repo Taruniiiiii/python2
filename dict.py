@@ -248,3 +248,17 @@ for i in range(1,6):
 print(n)
 ##otp:{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
+##
+
+d={'ram':20,'krish':23,'ram':21,'radha':25,'chandu':22}
+for key,value in d.items():
+  if value==25:
+    print(key,value)
+
+###
+def add(a,b):
+    print(a+b)
+m,n=map(int,input().split())
+add(m,n)
+
+

@@ -299,7 +299,7 @@ class Solution:
                 s.append(i)
 
         return s
-##
+#
 class Solution:
     def countSeniors(self, details: List[str]) -> int:
         count=0

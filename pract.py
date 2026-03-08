@@ -309,3 +309,15 @@ class Solution:
                 count+=1
         return count
         
+#
+class Solution:
+    def removeStars(self, s: str) -> str:
+        stack=[]
+        for c in s:
+            if c=="*":
+                stack.pop()#If character is *, pop from stack.
+            else:
+                stack.append(c)#If character is not *, push it.
+        return "".join(stack)
+
+        

@@ -331,6 +331,12 @@ Instructions:
 
 #1. Missing Colon"""
 
+from binascii import Error
+from tokenize import String
+
+from pandas import Index
+
+
 def greet(name):
  print("Hello " + name)
 greet("Santosh")
@@ -342,60 +348,78 @@ x = 10
 y = 11
 z=x+y
 print(z)
-4. Type Error
+#
+# 4. Type Error
 age = 21
-print("Age is " + age)
-5. Infinite Loop
+print("Age is " +  str(age))
+
+#5. Infinite Loop
 i = 1
 while i < 5:
- print(i)
-6. Index Error
+    print(i)
+    
+#6. Index Error
 numbers = [10,20,30]
-print(numbers[5])
-7. Function Not Returning
+print(numbers[1])
+
+#7. Function Not Returning
 def add(a,b):
- result = a + b
+    result = a + b
 print(add(3,4))
-8. Dictionary Key Error
+
+#8. Dictionary Key Error
 student = {"name":"Santosh","age":22}
-print(student["marks"])
-9. Tuple Modification
+print(student["name"])
+
+#9. Tuple Modification
 t = (1,2,3)
-t[0] = 10
-10. Division by Zero
+lst = list(t)
+lst[0] = 10
+t = tuple(lst)
+
+print(t)
+
+#10. Division by Zero
 a = 10
 b = 0
 print(a/b)
-11. Wrong Condition
+#11. Wrong Condition
 num = 10
-if num = 10:
+if num == 10:
  print("Ten")
-12. Wrong List Append
+ 
+#12. Wrong List Append
 numbers = [1,2,3]
-numbers.append[4]
+numbers.append(4)
 print(numbers)
-13. Wrong Function Call
+
+#13. Wrong Function Call
 def square(x):
  return x*x
-print(squre(5))
-14. Wrong Boolean
-flag = true
+print(square(5))
+
+#14. Wrong Boolean
+flag = True
 print(flag)
-15. Wrong Input Handling
-num = input("Enter number: ")
+
+#5. Wrong Input Handling
+num = int(input("Enter number: "))
 print(num + 5)
-16. Wrong Loop Syntax
+
+#16. Wrong Loop Syntax
 numbers = [1,2,3]
-for i in numbers():
- print(i)
-17. String Index Error
+for i in numbers:
+    print(i)
+    
+#17. String Index Error
 name = "Python"
 print(name[10])
-18. List Removal Bug
+
+#18. List Removal Bug
 nums = [1,2,3,4,5]
 for n in nums:
- if n % 2 == 0:
- nums.remove(n)
+    if n % 2 == 0:
+        nums.remove(n)
 print(nums)
 19. Wrong Class Definition
 class Person

@@ -77,7 +77,7 @@ for w in sen:
   if w not in unique:
       unique.append(w)
 print(" ".join(unique))
-"""
+
 ##
 ex="aabbbc"
 freq={}
@@ -320,4 +320,90 @@ class Solution:
                 stack.append(c)#If character is not *, push it.
         return "".join(stack)
 
-        
+## debugging session
+Python Debugging Hackathon Sheet
+Identify the bug(s), fix the code, and explain the issue.
+Instructions:
+1. Each problem contains buggy Python code.
+2. Your task: (a) Identify the bug, (b) Fix the code, (c) Explain the issue.
+3. Time limit: 60–90 minutes.
+4. You may use paper or an editor, but avoid running the code initially.
+
+#1. Missing Colon"""
+
+def greet(name):
+ print("Hello " + name)
+greet("Santosh")
+#2. Indentation Error
+for i in range(5):
+    print(i)
+#3. Undefined Variable
+x = 10
+y = 11
+z=x+y
+print(z)
+4. Type Error
+age = 21
+print("Age is " + age)
+5. Infinite Loop
+i = 1
+while i < 5:
+ print(i)
+6. Index Error
+numbers = [10,20,30]
+print(numbers[5])
+7. Function Not Returning
+def add(a,b):
+ result = a + b
+print(add(3,4))
+8. Dictionary Key Error
+student = {"name":"Santosh","age":22}
+print(student["marks"])
+9. Tuple Modification
+t = (1,2,3)
+t[0] = 10
+10. Division by Zero
+a = 10
+b = 0
+print(a/b)
+11. Wrong Condition
+num = 10
+if num = 10:
+ print("Ten")
+12. Wrong List Append
+numbers = [1,2,3]
+numbers.append[4]
+print(numbers)
+13. Wrong Function Call
+def square(x):
+ return x*x
+print(squre(5))
+14. Wrong Boolean
+flag = true
+print(flag)
+15. Wrong Input Handling
+num = input("Enter number: ")
+print(num + 5)
+16. Wrong Loop Syntax
+numbers = [1,2,3]
+for i in numbers():
+ print(i)
+17. String Index Error
+name = "Python"
+print(name[10])
+18. List Removal Bug
+nums = [1,2,3,4,5]
+for n in nums:
+ if n % 2 == 0:
+ nums.remove(n)
+print(nums)
+19. Wrong Class Definition
+class Person
+ def __init__(self,name):
+ self.name = name
+20. Recursion Bug
+def fact(n):
+ if n == 0:
+ return 0
+ return n * fact(n-1)
+print(fact(5))

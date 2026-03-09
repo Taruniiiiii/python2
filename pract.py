@@ -417,17 +417,18 @@ print(name[10])
 
 #18. List Removal Bug
 nums = [1,2,3,4,5]
+
+result = []
 for n in nums:
-    if n % 2 == 0:
-        nums.remove(n)
-print(nums)
-19. Wrong Class Definition
-class Person
- def __init__(self,name):
- self.name = name
-20. Recursion Bug
+    if n % 2 != 0:
+        result.append(n)
+
+print(result)
+
+#20. Recursion Bug
 def fact(n):
- if n == 0:
- return 0
- return n * fact(n-1)
+    if n == 0:
+        return 0
+    else:
+        return n * fact(n-1)
 print(fact(5))

@@ -424,7 +424,6 @@ for n in nums:
         result.append(n)
 
 print(result)
-
 #20. Recursion Bug
 def fact(n):
     if n == 0:

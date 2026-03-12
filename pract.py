@@ -354,9 +354,9 @@ age = 21
 print("Age is " +  str(age))
 
 #5. Infinite Loop
-i = 1
+"""i = 1
 while i < 5:
-    print(i)
+    print(i)"""
     
 #6. Index Error
 numbers = [10,20,30]
@@ -414,7 +414,7 @@ for i in numbers:
 #17. String Index Error
 name = "Python"
 print(name[10])
-
+"""
 #18. List Removal Bug
 nums = [1,2,3,4,5]
 
@@ -424,10 +424,33 @@ for n in nums:
         result.append(n)
 
 print(result)
+
 #20. Recursion Bug
 def fact(n):
     if n == 0:
         return 0
     else:
         return n * fact(n-1)
-print(fact(5))
+print(fact(5))"""
+
+"""li=map(int,input().split())
+for n in li:
+    print(n*n)
+##type2
+li=map(int,input().split())
+li1=[]
+for i in li:
+    li.append(i*i)
+print(li1)"""
+
+#print primes till 100 using functions
+def is_prime(n):
+    if n<=1:
+        return False
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+for num in range(2,101):
+    if is_prime(num):
+        print(num)

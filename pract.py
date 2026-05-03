@@ -476,7 +476,7 @@ class Solution:
         m = self.rev(n)
         return abs(m - n)
     
-##leet
+##leetcode
 class Solution:
     def commonElements(self, a, b, c):
         a = set(a)

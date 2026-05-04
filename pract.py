@@ -423,7 +423,7 @@ for n in nums:
     if n % 2 != 0:
         result.append(n)
 
-print(result)
+print(result)"""
 
 #20. Recursion Bug
 def fact(n):
@@ -431,9 +431,9 @@ def fact(n):
         return 0
     else:
         return n * fact(n-1)
-print(fact(5))"""
+print(fact(5))
 
-"""li=map(int,input().split())
+li=map(int,input().split())
 for n in li:
     print(n*n)
 ##type2

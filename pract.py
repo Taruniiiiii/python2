@@ -414,7 +414,7 @@ for i in numbers:
 #17. String Index Error
 name = "Python"
 print(name[10])
-"""
+
 #18. List Removal Bug
 nums = [1,2,3,4,5]
 
@@ -423,7 +423,7 @@ for n in nums:
     if n % 2 != 0:
         result.append(n)
 
-print(result)"""
+print(result)
 
 #20. Recursion Bug
 def fact(n):

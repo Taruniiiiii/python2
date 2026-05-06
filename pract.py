@@ -354,9 +354,9 @@ age = 21
 print("Age is " +  str(age))
 
 #5. Infinite Loop
-"""i = 1
+i = 1
 while i < 5:
-    print(i)"""
+    print(i)
     
 #6. Index Error
 numbers = [10,20,30]

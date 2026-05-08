@@ -335,8 +335,6 @@ from binascii import Error
 from tokenize import String
 
 from pandas import Index
-
-
 def greet(name):
  print("Hello " + name)
 greet("Santosh")

@@ -326,7 +326,6 @@ Identify the bug(s), fix the code, and explain the issue.
 Instructions:
 1. Each problem contains buggy Python code.
 2. Your task: (a) Identify the bug, (b) Fix the code, (c) Explain the issue.
-4. You may use paper or an editor, but avoid running the code initially.
 
 #1. Missing Colon"""
 
